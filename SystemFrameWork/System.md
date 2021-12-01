@@ -1,0 +1,84 @@
+*   项目框架
+    *   版本管理
+        *   Git（程序使用）
+        *   SVN（方便理解，策划美术均可使用）
+    *   IDE（编程工具）
+        *   Visual Studio
+        *   monoDevelop
+    *   编程语言
+        *   C#
+        *   Lua(主要用于游戏热更新)
+        *   json
+    *   主流发布平台
+        *   PC
+        *   Android
+        *   Webgl
+        *   Mac
+        *   ios
+    *   插件
+        *   DOTween
+        *   Itween
+        *   VR/AR/MR
+            *   VRTK
+            *   Vuforia
+            *   Easy AR
+            *   ARKIT
+        *   PlayMaker
+        *   2D ToolKit
+        *   Litjson
+        *   Gaia
+        *   EasyTouch
+    *   UI
+        *   NGUI
+        *   UGUI
+    *   特效
+        *   Unity粒子系统
+        *   Shader
+        *   FX Maker
+    *   动画
+        *   从外部工具（如3ds Max、Maya等）导入动画
+            *   关节动画
+            *   骨骼动画
+            *   单一网格模型动画（关键帧动画）
+        *   在Unity引擎中制作动画
+            *   Animator
+            *   Animation
+        *   代码制作的动画
+    *   模型
+        *   模型文件包含的数据
+            *   角色
+            *   地形网格
+            *   动画骨架
+            *   动画剪辑
+            *   材质和纹理
+        *   支持格式
+            *   fbx
+            *   3ds
+            *   obj
+            *   dxf
+            *   dae(Collada)
+    *   音频
+        *   AudioSouce
+    *   场景搭建
+        *   灯光烘培
+            *   点光源
+            *   方向光
+            *   区域光
+            *   聚光灯
+        *   场景布局设计
+    *   资源加载
+        *   AssetBundle
+            *   可将资源放在服务器或本地
+        *   Resouces.Load
+    *   数据读取
+        *   Json
+        *   XML
+        *   Text
+        *   数据库
+    *   项目部署
+    *   项目测试
+    *   项目优化
+    *   服务器（后端）
+        *   [网络游戏服务器数据库设计和实现.doc (book118.com)](https://max.book118.com/html/2018/0531/169756207.shtm)
+        *   服务器与数据库交互
+    *   热更新
