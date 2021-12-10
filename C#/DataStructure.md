@@ -42,6 +42,8 @@
         *   源码
             *   [https://referencesource.microsoft.com/#mscorlib/system/collections/generic/list.cs,9808f1f5ef16c436](https://referencesource.microsoft.com/#mscorlib/system/collections/generic/list.cs,9808f1f5ef16c436)
             *   [https://docs.microsoft.com/zh-cn/dotnet/api/system.collections.generic.list-1?view=net-5.0](https://docs.microsoft.com/zh-cn/dotnet/api/system.collections.generic.list-1?view=net-5.0)
+        *   list排序 
+            *   list<T>.Sort (Comparison<T> comparison)
         
     *   LinkedList<T>(链表)
         *   概述

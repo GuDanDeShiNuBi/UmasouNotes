@@ -152,8 +152,9 @@
         *   [C#使用MemoryStream类读写内存](https://www.cnblogs.com/niyl/p/10137024.html)
     *   BitConverter
         *   [BitConverter 类 (System) | Microsoft Docs](https://docs.microsoft.com/zh-cn/dotnet/api/system.bitconverter?view=net-5.0)
-    *   正则表达式
+    *   正则表达式：正则表达式的主要作用是验证字符串的值是否满足一定的规则，在页面输入数据验证方面的应用比较多
         *   [Regex 类](https://docs.microsoft.com/zh-cn/dotnet/api/system.text.regularexpressions.regex?view=net-5.0)
+        *   Regex.ismatch:指示正则表达式在输入字符串中是否找到匹配项
     *   Webclient
         *   [WebClient 类 (System.Net) | Microsoft Docs](https://docs.microsoft.com/zh-cn/dotnet/api/system.net.webclient?view=net-5.0)
         *   UserAgent
