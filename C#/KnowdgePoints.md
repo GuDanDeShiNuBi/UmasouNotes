@@ -168,3 +168,5 @@
         *   *   ![](https://api2.mubu.com/v3/document_image/19d43730-74fa-420f-a268-de9ebc1a892b-11312918.jpg)
     *   static
         *   [static作用](https://q.cnblogs.com/q/113888/)  
+    *   if(！A)
+        * 表示条件不等于条件A时，执行

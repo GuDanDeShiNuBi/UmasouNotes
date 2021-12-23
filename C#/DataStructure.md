@@ -73,7 +73,7 @@
             *   使用后进先出顺序（LIFO）的数据结构
             *   元素从栈的尾部插入，从栈的尾部移除，类似于日常生活中搬家的时候装车，先装上车的东西要后拿下来。
         *   详解
-            *   使用pop和push来操作
+            *   使用pop和push、peek来操作
             *   默认容量为10
             *   [https://docs.microsoft.com/zh-cn/dotnet/api/system.collections.generic.stack-1?redirectedfrom=MSDN&view=netframework-4.8](https://docs.microsoft.com/zh-cn/dotnet/api/system.collections.generic.stack-1?redirectedfrom=MSDN&view=netframework-4.8)
                 

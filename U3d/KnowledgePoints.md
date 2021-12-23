@@ -135,3 +135,11 @@
         
     *   UI不规则区域点击
         *   [Untiy实用功能之UGUI不规则的按钮点击](https://juejin.cn/post/7000387760078979080)
+    *   设置UI优先级
+        *   transform.SetAsLastSibling\SetAsFirstSibling
+    *   RectTransform
+        *   [RectTransform详解1](https://www.jianshu.com/p/4592bf809c8b)
+        *   [RectTransform详解2](https://zhuanlan.zhihu.com/p/139252379)
+    *   动态列表
+        *   [unity动态列表](https://blog.csdn.net/linxinfa/article/details/122019054)
+    *   调整exe窗口大小，projectsetting-Resolution and presentation-Resizable Window
