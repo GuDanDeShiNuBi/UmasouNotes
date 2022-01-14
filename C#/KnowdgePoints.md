@@ -155,6 +155,7 @@
     *   正则表达式：正则表达式的主要作用是验证字符串的值是否满足一定的规则，在页面输入数据验证方面的应用比较多
         *   [Regex 类](https://docs.microsoft.com/zh-cn/dotnet/api/system.text.regularexpressions.regex?view=net-5.0)
         *   Regex.ismatch:指示正则表达式在输入字符串中是否找到匹配项
+        *   [正则表达式大全](https://blog.csdn.net/ZYC88888/article/details/98479629)
     *   Webclient
         *   [WebClient 类 (System.Net) | Microsoft Docs](https://docs.microsoft.com/zh-cn/dotnet/api/system.net.webclient?view=net-5.0)
         *   UserAgent
@@ -170,3 +171,10 @@
         *   [static作用](https://q.cnblogs.com/q/113888/)  
     *   if(！A)
         * 表示条件不等于条件A时，执行
+    *   object类型不能强制转换成int,可以使用 int.parse(object.tostring())
+    *   [decimal](https://blog.csdn.net/u010771437/article/details/40867831)
+    *   [float、double、decimal类型转换精度丢失](https://blog.csdn.net/starfd/article/details/44623335)
+        * float:浮点型，含字节数为4，32bit，数值范围为-3.4E38~3.4E38（7个有效位）
+        * double:双精度实型，含字节数为8，64bit数值范围-1.7E308~1.7E308（15个有效位）
+        * decimal:数字型，128bit，28个有效位 
+        * float 与计算机中数值表示方法有关,不是准确数据. decimal 是准确数据,不会出现这个问题

@@ -143,3 +143,4 @@
     *   动态列表
         *   [unity动态列表](https://blog.csdn.net/linxinfa/article/details/122019054)
     *   调整exe窗口大小，projectsetting-Resolution and presentation-Resizable Window
+    *   unity打开其他电脑或其他人的工程，vs会丢失unity相关引用：1、可以删除library,obj,logs文件夹重新打开；2、可以将源工程导出packages,然后新建工程打开导入，然后将projectsetting文件夹替换为源工程的

@@ -8,3 +8,5 @@
   * MarkMap:MarkDown转思维导图  
 * 一个工具箱
   * Html转markdown  
+* 查看电脑配置
+  * dxdiag
