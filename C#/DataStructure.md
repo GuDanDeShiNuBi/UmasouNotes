@@ -44,6 +44,8 @@
             *   [https://docs.microsoft.com/zh-cn/dotnet/api/system.collections.generic.list-1?view=net-5.0](https://docs.microsoft.com/zh-cn/dotnet/api/system.collections.generic.list-1?view=net-5.0)
         *   list排序 
             *   list<T>.Sort (Comparison<T> comparison)
+            *   [根据list中的数据的某一属性进行排序](https://blog.csdn.net/IQsuper/article/details/115948387)
+            *   [list排序总结](https://zhuanlan.zhihu.com/p/141618333)
         
     *   LinkedList<T>(链表)
         *   概述
