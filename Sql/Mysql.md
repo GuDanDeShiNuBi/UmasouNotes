@@ -15,6 +15,7 @@
     *   [交互](https://blog.csdn.net/wks310/article/details/86543891)
     *   DataTable
     *   DataSet
+    *   [方法封装](https://www.programminghunter.com/article/362126543/)
 *   连接打包
     * unity想要与mysql连接，需要导入mysql.data.dll文件
     * 导入dll文件会遇到版本问题，需要确认unity对应的.Net版本及Api compatibility level(.Net4x),然后确认mysql对应版本，MySql驱动包需要与Unity版本对应，比如我用的Unity2017.1.1，只能支持.net 3.5及以下的版本，所以下载的时候，请让MySql.Data.dll支持的版本小于或等于你的Unity支持的版本
