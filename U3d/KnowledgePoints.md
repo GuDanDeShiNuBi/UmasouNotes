@@ -146,3 +146,4 @@
     *   unity打开其他电脑或其他人的工程，vs会丢失unity相关引用：1、可以删除library,obj,logs文件夹重新打开；2、可以将源工程导出packages,然后新建工程打开导入，然后将projectsetting文件夹替换为源工程的
     *   输入框输入内容显示为星号，inputfield--content type改为password
         *   显示内容，则contenttype改为standerd
+        *   限制inputfield输入内容设置contenttype即可
