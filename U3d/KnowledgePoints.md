@@ -147,3 +147,4 @@
     *   输入框输入内容显示为星号，inputfield--content type改为password
         *   显示内容，则contenttype改为standerd
         *   限制inputfield输入内容设置contenttype即可
+    *  

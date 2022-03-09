@@ -178,3 +178,24 @@
         * double:双精度实型，含字节数为8，64bit数值范围-1.7E308~1.7E308（15个有效位）
         * decimal:数字型，128bit，28个有效位 
         * float 与计算机中数值表示方法有关,不是准确数据. decimal 是准确数据,不会出现这个问题
+    *   方法返回不确定类型list
+        * 返回固定List<int>类型
+          * public static List<int> GetList(){}        
+        * 返回List<T>类型 可以这样调用，GetList(1);此时返回List<int>类型
+          * public static List<T> GetList<T>(T t){}
+        * 返回List<T>类型 可以这样调用，GetList<int>();此时返回List<int>类型
+            * public static List<T> GetList<T>(){}
+        * 返回List<T>类型，并且T是可以实例化的类 /可以这样调用，GetList<DateTime>();此时返回的是List<DateTime>类型;不可以这样调用，GetList<int>();因为int类不能被实例化
+            * public static List<T> GetList<T>() where T : new()
+            * {
+                * List<T> list = new List<T>();
+                * T obj = new T();
+                * list.Add(obj);
+                * return list;
+            * }
+    *   C#数字转为百分数
+        * deciaml percent = 0.123456789123456789M;
+        * string q1 = percent.ToString("P"); //12.35%;自动四舍五入，百分数，千位分隔，自动两个小数
+        * string q2 = percent.ToString("P0"); //12%；P后边跟数字，代表精度。
+        * string q3 = percent.ToString("P1"); //12.3%；
+        * string q4 = percent.ToString("P2"); //12.35%；
