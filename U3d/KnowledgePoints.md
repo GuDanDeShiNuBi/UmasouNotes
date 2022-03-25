@@ -147,4 +147,7 @@
     *   输入框输入内容显示为星号，inputfield--content type改为password
         *   显示内容，则contenttype改为standerd
         *   限制inputfield输入内容设置contenttype即可
-    *  
+    * [unityAction、Action、Delegate、Reflection](https://www.cnblogs.com/pz904/p/12596606.html)
+    * [unity调用windows系统对话框保存](https://blog.csdn.net/abc1090275833/article/details/88058679 )
+    * [加解密](https://www.cnblogs.com/guhuazhen/p/11201450.html)
+      * 可逆：RSA,AES,DES等,  不可逆：常见的MD5，SHAD等

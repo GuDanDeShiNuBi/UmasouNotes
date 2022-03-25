@@ -1,7 +1,7 @@
 *   Webgl3D开发
     
     *   Unity&&Webgl
-        *   [发WebGL项目](https://baijiahao.baidu.com/s?id=1607426266434177655&wfr=spider&for=pc)
+        *   [WebGL项目](https://baijiahao.baidu.com/s?id=1607426266434177655&wfr=spider&for=pc)
         *   案例
             *   2D
                 *   [compliance/](https://segs.w3.uvm.edu/demos/compliance/)

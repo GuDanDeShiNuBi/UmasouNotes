@@ -199,3 +199,23 @@
         * string q2 = percent.ToString("P0"); //12%；P后边跟数字，代表精度。
         * string q3 = percent.ToString("P1"); //12.3%；
         * string q4 = percent.ToString("P2"); //12.35%；
+    *   [取小数点后三位，不四舍五入](https://www.cnblogs.com/xhjd520/archive/2009/06/24/1509982.html)
+        *   方法1：
+            int n=3；//例如取小数位3位
+            double a=1.1234567；
+            int index = a.ToString().IndexOf(".");//取小数点所在位置索引
+            if (index + 1 + n > a.ToString().Length|| a.ToString().IndexOf(".")==-1)//索引大于长度或a为整数
+            string a3 = a.ToString();//a3以字符形式存放三位小数
+            else
+            string a3 = a.ToString().Substring(0, index + 1 + n);//取需要的长度
+
+            方法2：
+            double a=2.3456;
+            a= Math.Floor(a* 1000) / 1000;//取三位小数,2.345
+            double b=1;
+            b= Math.Floor(b* 1000) / 1000;//1.0
+            方法3：
+            (int)(a*1000)/1000好像也可以
+    * [c#判断外部文件是否被占用](https://blog.csdn.net/lanpy88/article/details/7305184?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&utm_relevant_index=2)
+    * [try...catch](https://blog.csdn.net/aimin_com/article/details/80285171)
+        
