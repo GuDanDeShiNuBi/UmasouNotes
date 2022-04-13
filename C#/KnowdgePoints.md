@@ -142,6 +142,9 @@
         *   break
             *   跳出当前循环,程序走到break这跳出当前循环,当前循环结束,继续执行循环外的代码
             *   break后面的代码不会执行
+        *   continue
+            *   continue语句和break语句相似。所不同的是，它不是退出一个循环，而是开始循环的一次新迭代。
+        *   [continue&return&break](https://www.cnblogs.com/iceword/archive/2010/06/04/1751382.html)
     *   转义字符
         *   [.NET 正则表达式中的字符转义 | Microsoft Docs](https://docs.microsoft.com/zh-cn/dotnet/standard/base-types/character-escapes-in-regular-expressions)
             *   \\t 制表符
