@@ -221,4 +221,5 @@
             (int)(a*1000)/1000好像也可以
     * [c#判断外部文件是否被占用](https://blog.csdn.net/lanpy88/article/details/7305184?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&utm_relevant_index=2)
     * [try...catch](https://blog.csdn.net/aimin_com/article/details/80285171)
+    * [null与“”的区别](https://www.cnblogs.com/gsk99/archive/2010/12/13/1904558.html)
         
