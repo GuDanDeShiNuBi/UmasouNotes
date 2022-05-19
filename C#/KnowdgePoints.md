@@ -177,7 +177,7 @@
     *   object类型不能强制转换成int,可以使用 int.parse(object.tostring())
     *   [decimal](https://blog.csdn.net/u010771437/article/details/40867831)
     *   [float、double、decimal类型转换精度丢失](https://blog.csdn.net/starfd/article/details/44623335)
-        * float:浮点型，含字节数为4，32bit，数值范围为-3.4E38~3.4E38（7个有效位）
+        * float:浮点型，含字节数为4，32bit，数值范围为-3.4E38~3.4E38（7个有效位），浮点数计算后存在浮点误差
         * double:双精度实型，含字节数为8，64bit数值范围-1.7E308~1.7E308（15个有效位）
         * decimal:数字型，128bit，28个有效位 
         * float 与计算机中数值表示方法有关,不是准确数据. decimal 是准确数据,不会出现这个问题
@@ -222,4 +222,11 @@
     * [c#判断外部文件是否被占用](https://blog.csdn.net/lanpy88/article/details/7305184?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&utm_relevant_index=2)
     * [try...catch](https://blog.csdn.net/aimin_com/article/details/80285171)
     * [null与“”的区别](https://www.cnblogs.com/gsk99/archive/2010/12/13/1904558.html)
-        
+    * 问题: 用C#从数据库中读取一条数据decimal amount = decimal.Parse(dr["Amount"].ToString())，当amount的数值比较大的时候会用科学计数法显示，例如123568008.0 dr["Amount"].ToString()是"1.23568E+08" ，decimal.Parse会抛出一个"Input string was not in a correct format."的异常.
+      * 1、使用Convert.ToDeciaml(dr["Amount"])
+      * 2、使用decimal.tryParse(string,out result)；
+    * c# 去重泛型：Distinct
+      *   var distinct = targetlist.Distinct().ToList();
+    * list.sort的比较函数compare to   
+      * list.Sort((x, y) => x.CompareTo(y));默认升序
+      * list.Sort((x, y) => -x.CompareTo(y));降序添加负号
