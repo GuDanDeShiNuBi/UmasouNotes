@@ -29,6 +29,13 @@
       * 3、- 导入I18N.dll/I18N.CJK.dll/I18N.West.dll\system.data.dll,system.drawing.data.dll时报错：  选择E:\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unityjit中的导入,dll文件对应.Net版本需要跟unity.Net版本一致  
       * 打包后报错（The type initializer for 'MySql.Data.MySqlClient.Replication.ReplicationManager' threw an exception.）：1、添加I18n\I18N.cjk\I18N.west
         2、将projecsetting/player/othersetting/Configuration中的Api Compatibility Level 改为.NET 4.x
+
+*   命令行操作
+    *   打开数据库
+        *   \-u root -p
+    *   选择数据库
+        *   use dabsname
+
 *   语法
     *   [SQL是什么？它能做什么？](http://c.biancheng.net/view/7566.html)
     *   [SQL INSERT INTO 语句 ](https://www.runoob.com/sql/sql-insert.html)
@@ -37,10 +44,20 @@
     *   [sql 预处理语句：Mysql将prepare、excute、deallcate统称为PREPARE STATEMENT，即预处理语句](https://www.cnblogs.com/geaozhang/p/9891338.html)
         *   PREPARE语句用于预备一个语句，并指定名称statement_name，以后引用该语句。语句名称对大小写不敏感。preparable_stmt可以是一个文字字符串，也可以是一个包含了语句文本的用户变量。该文本必须表现为一个单一的SQL语句，而不是多个语句。在这语句里，‘?’字符可以被用于标识参数，当执行时，以指示数据值绑定到查询后。‘?’字符不应加引号，即使你想要把它们与字符串值结合在一起。参数标记只能用于数据值应该出现的地方，而不是SQL关键字，标识符，等等。如果预语句已经存在，则在新的预语句被定义前，它会被隐含地删掉
     *   pk-主键  fk-外键
-*   命令行操作
-    *   打开数据库
-        *   \-u root -p
-    *   选择数据库
-        *   use dabsname
+    *   [where多条件判断语法](https://blog.csdn.net/liuying_1001/article/details/37700883)
+    *   [mysql中float与decimal](https://blog.csdn.net/donghaixiaolongwang/article/details/74905954) 
+    *   删除某日期之前的数据:delete from allTData where crt_time<'2017-05-31 00:00:00'
+ 
 *   数据库设计
     *   实体关系图（ERD）
+    *   [mysql字段区分大小写](https://blog.csdn.net/clapAlong/article/details/118797101)
+    *   [排序规则](https://blog.csdn.net/leoxyk/article/details/99855608)
+    *   [数据长度设置](https://blog.csdn.net/qq_43470725/article/details/123411822)
+    *   [外键与主键]
+    *   [主键设置自增时报错](https://blog.csdn.net/ghjzzhg/article/details/77606251)
+    *   mysql varchar长度指的是当前字符集的字符长度，而不是字节长度
+        *   [mysqlvarchar长度问题](https://segmentfault.com/q/1010000003040054)
+        *   bit:位是数据存储（计算机中信息）的最小单位,每个0或1就是一个位(bit)
+        *   byte:8bit就称为一个字节（Byte）, 1Byte=8bit。记为Byte或B,是计算机中信息的基本单位
+        *   [varchar详解](https://www.cnblogs.com/zhuyeshen/p/11642211.html)
+    *   [mysql存储长字符串](https://blog.csdn.net/wuxiaolongah/article/details/120069756)

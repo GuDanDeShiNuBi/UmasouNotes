@@ -86,3 +86,4 @@
         *   1\. 客户端图形渲染的硬件限制
         *   2\. 3D模型场景下载的带宽限制
     *   unity webgl文件利用vscode运行在本地服务器：vscode下载插件：liveServer
+    *   [webgl本地运行](https://blog.csdn.net/qq_33155437/article/details/120175759)

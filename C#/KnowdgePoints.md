@@ -92,6 +92,8 @@
     *   Delegate/委托
         *   [委托 - C# 编程指南 | Microsoft Docs](https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/delegates/)
         *   [Unity游戏开发——对委托的理解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/84015453)
+        *   [委托与事件](https://zhuanlan.zhihu.com/p/413733828)
+        *   [委托的具体使用](https://www.jianshu.com/p/674da938f3d0)
         *   Action<>
         *   委托简化写法
             *   Action<T>
@@ -220,13 +222,56 @@
             方法3：
             (int)(a*1000)/1000好像也可以
     * [c#判断外部文件是否被占用](https://blog.csdn.net/lanpy88/article/details/7305184?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&utm_relevant_index=2)
+   
     * [try...catch](https://blog.csdn.net/aimin_com/article/details/80285171)
+      * 捕捉到异常后代码执行情况，catch{} 是会继续执行的，catch{ throw } 是不会继续执行的。
+   
     * [null与“”的区别](https://www.cnblogs.com/gsk99/archive/2010/12/13/1904558.html)
+    
     * 问题: 用C#从数据库中读取一条数据decimal amount = decimal.Parse(dr["Amount"].ToString())，当amount的数值比较大的时候会用科学计数法显示，例如123568008.0 dr["Amount"].ToString()是"1.23568E+08" ，decimal.Parse会抛出一个"Input string was not in a correct format."的异常.
       * 1、使用Convert.ToDeciaml(dr["Amount"])
       * 2、使用decimal.tryParse(string,out result)；
+    
     * c# 去重泛型：Distinct
       *   var distinct = targetlist.Distinct().ToList();
+    
     * list.sort的比较函数compare to   
       * list.Sort((x, y) => x.CompareTo(y));默认升序
       * list.Sort((x, y) => -x.CompareTo(y));降序添加负号
+    
+    * Array. GetUpperBound(0) :获取一维数组的上限，0代表1维数组，1代表2维数组
+        * [GetUpperBound](https://docs.microsoft.com/zh-cn/dotnet/api/system.array.getupperbound?view=net-6.0)
+    
+    * 1E+07是科学记数,一般发生在数据库中或者要输出的地方
+    
+    * [Convert与Parse](https://blog.csdn.net/qq_40245756/article/details/84794842)
+    
+    * 判断两个数值是否相等
+      * decimal.compare()  2与2.00m相等
+      * if(2==2.00m)   2与2.00相等
+    
+    * List<T> A;List<T>B;A=B;这种列表复制方式属于深度复制，是引用传递，改变A数据的同时，B也会改变
+    
+    * string.indexof(""),从零开始查询，未查询到返回-1
+    
+    * [为什么避免使用静态变量](https://www.zhihu.com/question/47537779)
+    
+    * 线程
+      * [Thread.sleep](https://www.cnblogs.com/nzbbody/archive/2012/03/06/2381359.html)
+    
+    * [DateTime时间差计算](https://www.cnblogs.com/xsj1989/p/6215518.html)
+    
+    * 类之间方法调用问题：A调用B的方法（B类此方法里存在对B变量v的赋值），调用后则B中的v的值发生变化，B类其他方法均可使用v的值。
+    
+    * get set属性：get中可放置赋值的函数，当字段被外部调用时，可以直接获取到函数计算的值，相当于一个赋值的方法
+    
+    * c#内存释放（垃圾回收）   
+      * 1、将变量设置为null，直接进行释放
+      * 2、采用 GC.Collect();GC.WaitForPendingFinalizers();进行强制回收
+      * [相关测试](https://www.cnblogs.com/mq0036/p/3707257.html)
+
+    * [接口](https://www.zhihu.com/question/499168424)
+
+    *  字节数组的转换出现字母表示
+       *  [多种输出字节数组的方法](https://blog.csdn.net/mingzaiwang/article/details/117224809)
+        

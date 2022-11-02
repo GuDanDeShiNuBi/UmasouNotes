@@ -140,14 +140,85 @@
     *   RectTransform
         *   [RectTransform详解1](https://www.jianshu.com/p/4592bf809c8b)
         *   [RectTransform详解2](https://zhuanlan.zhihu.com/p/139252379)
+       
     *   动态列表
-        *   [unity动态列表](https://blog.csdn.net/linxinfa/article/details/122019054)
-    *   调整exe窗口大小，projectsetting-Resolution and presentation-Resizable Window
-    *   unity打开其他电脑或其他人的工程，vs会丢失unity相关引用：1、可以删除library,obj,logs文件夹重新打开；2、可以将源工程导出packages,然后新建工程打开导入，然后将projectsetting文件夹替换为源工程的
+        *   [unity动态列表](https://blog.csdn.net/linxinfa/article/details/122019054) 
+       
+    *   调整exe窗口大小
+        *   projectsetting-Resolution and presentation-Resizable Window
+          
+    *   unity打开其他电脑或其他人的工程，vs会丢失unity相关引用
+        *   1、可以删除library,obj,logs文件夹重新打开
+        *   2、可以将源工程导出packages,然后新建工程打开导入，然后将projectsetting文件夹替换为源工程的
+
     *   输入框输入内容显示为星号，inputfield--content type改为password
         *   显示内容，则contenttype改为standerd
         *   限制inputfield输入内容设置contenttype即可
+         
     * [unityAction、Action、Delegate、Reflection](https://www.cnblogs.com/pz904/p/12596606.html)
+    
     * [unity调用windows系统对话框保存](https://blog.csdn.net/abc1090275833/article/details/88058679 )
+    
     * [加解密](https://www.cnblogs.com/guhuazhen/p/11201450.html)
       * 可逆：RSA,AES,DES等,  不可逆：常见的MD5，SHAD等
+      * Des加解密：密钥长度必须为8位。[des](https://www.zhihu.com/question/36767829)
+      
+    * Unity Inputfield 被选中后未显示光标（caret）
+      * 解决：将Inputfield的子节点Placeholder与Text组件RectTransform大小设置一致
+      * 分辨率太小，光标也会不显示可将Inputfield的Caret width 调大
+      
+    * [Table键切换输入框](https://blog.csdn.net/qq_42937284/article/details/106146595)
+    * [scrollview滚动到指定位置](https://blog.csdn.net/qq_42672770/article/details/122611935)
+      * GetComponent<ScrollRect>().normalizedPosition = new Vector2(0, 0);new Vector2(0,1)
+     
+    * 设置Sprite Editor，使UI拉伸时边缘不变形
+    * projectsetting---Fixed Timestep=0.02:代表每帧为0.02秒，所以1秒=50帧
+  
+    * [unity安装包制作](https://blog.csdn.net/qq_42194657/article/details/99614051)
+    * UI——Navigation组件：用于UI导航，切换按钮。当关闭此选项后，Button会无法聚焦（无法响应其selected color等状态）
+   
+    * 如何让按钮保存选中状态
+      * 1、修改按钮颜色，程序修改
+      * 2、使用toggle,toggle group [toggle](https://blog.csdn.net/a1208498468/article/details/117016149)
+     
+    * list使用前需要先初始化，创建实例,否则会报空指针。可在声明时进行，如list<T>myList=new list<T>();
+    * UI子节点锚点问题
+      * 子节点的锚点设置以自身父节点位置大小为基础
+      
+    * 预制体文件损坏怎么办：将该预制体.meta文件的后缀去电改为.prefab即可恢复
+
+    * unity分辨率设置，projectsetting-resolution and presentation-display resolution dialog选项在 Unity2019之后的版本去除
+    
+    * unity设置为全屏模式后，无法设置窗口大小。
+      * 需要调整为windowed模式，这个模式带有windows边框，需要做去边框操作
+      
+    * unity抗锯齿
+      * canvas设置为screen space -camera, camera打开msaa,quality setting里设置anti Aliasing 2x\4x\8x
+      
+    * unity汉化
+      * 把语言包文件(zh-cn.po)放在Unity的安装目录下：C:\Program Files\Unity\2018.4.9f1\Editor\Data\Localization\
+       如果没有这目录，则自己新建一个，注意文件名为zh-cn.po
+
+    * [协程终止问题](https://blog.csdn.net/C_Han_Dong/article/details/113458471)
+
+    * 如何设置一个未选择的（默认值为空）的下拉列表dropdown
+      * 下拉列表添加一个默认项default，list<string> temp=new list<string>{"1","2","3","default"};
+      * 初始化dropdown： dropdown.addoptions(temp);
+      * 选择default为默认值:  dopdown.value=dopdown.options.Count - 1;
+      * 移除default:  dopdown.options.RemoveAt(dopdown.options.Count - 1)
+      * 最后在事件监听时设置text:dropdown.onValueChanged.AddListener(value =>{  if (dropdown.options[value].text == "default")
+                return;});
+                
+    * getComponent<T>可以看做是一个获取对象实例的过程，T看做为一个类
+
+    * unity内存详解 
+      * [unity内存过大](https://zhuanlan.zhihu.com/p/336004123)
+
+    * 快速进行UI设置    
+      * [预设UI](https://blog.csdn.net/weixin_32848617/article/details/112416558)
+      * [unity UI快速排版对齐](https://blog.csdn.net/cheng624/article/details/72648768)
+
+    * [模型拆分效果实现](https://blog.csdn.net/xiaochenXIHUA/article/details/93851373)
+
+    * unity打开vs，一直显示Importing assets。
+      * 原因：工程路径中存在中文
