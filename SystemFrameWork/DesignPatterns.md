@@ -22,7 +22,7 @@
                         *   public static Singleton getInstance() {
                         *   return uniqueInstance;}}
         *   优点
-            *   单例提供了全局唯一的访问入口，因此易于控制可能发生的冲突。单例是对类静态函数的一种改进，首先它避免了全局变量对系统的污染。如果将对象赋给一个全局变量，那么必须在程序一开始就创建好对象，若这个对象非常消耗资源，而程序在这次执行过程中又一直没有用到它，就形成了浪费；
+            *   单例提供了全局唯一的访问入口，因此易于控制可能发生的冲突。单例是对类静态函数的一种改进，首先它避免了全局变量对系统的污染。如果将对象赋给一个全局变量，那么必须在程序一开始就创建好对象，若这个对象非常消耗资源，而程序在这次执行过程中又一直没有用到它，就形成了浪费
             *   单例还可以延迟实例化，即只有在使用的时候才会实例化。
                 
     *   工厂模式
@@ -94,3 +94,4 @@
 * [设计模式-博客](https://www.cnblogs.com/zhili/p/DesignPatternSummery.html)
 * [设计模式-github](https://github.com/QianMo/Unity-Design-Pattern)
 * [面向对象的6中关系](https://zhuanlan.zhihu.com/p/109655171)
+* [游戏编程模式翻译](https://gpp.tkchu.me/object-pool.html)

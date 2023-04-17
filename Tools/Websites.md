@@ -6,3 +6,7 @@
     *   [Unity - Scripting API: Texture2D (unity3d.com)](https://docs.unity3d.com/ScriptReference/Texture2D.html)
 *   C#
     *   https://www.youtube.com/watch?v=GhQdlIFylQ8
+    *   StackOverflow
+*   大佬
+    *   [烟雨](https://www.lfzxb.top/archives/)
+    *   [云风的BLOG](http://codingnow.com/)

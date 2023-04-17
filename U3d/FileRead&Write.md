@@ -32,3 +32,9 @@
 *   文件读写与路径
     *   [unity文件操作](https://www.jianshu.com/p/e46ea0ac1480)
 *   unity读取json
+    * [本地数据保存与读取]https://blog.csdn.net/czhenya/article/details/78057062
+    * [三种保存方式]https://zhuanlan.zhihu.com/p/260157229
+    * https://blog.csdn.net/yu1368072332/article/details/81138281
+
+* 配置表读取插件：luban
+  * https://gitee.com/focus-creative-games/luban

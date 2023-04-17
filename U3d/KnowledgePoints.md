@@ -185,7 +185,7 @@
     * UI子节点锚点问题
       * 子节点的锚点设置以自身父节点位置大小为基础
       
-    * 预制体文件损坏怎么办：将该预制体.meta文件的后缀去电改为.prefab即可恢复
+    * 预制体文件损坏怎么办：将该预制体.meta文件的后缀改为.prefab即可恢复
 
     * unity分辨率设置，projectsetting-resolution and presentation-display resolution dialog选项在 Unity2019之后的版本去除
     
@@ -222,3 +222,25 @@
 
     * unity打开vs，一直显示Importing assets。
       * 原因：工程路径中存在中文
+
+    * [导入原神模型&&blender结合unity](https://blog.csdn.net/linxinfa/article/details/121370565?spm=1001.2100.3001.7377&utm_medium=distribute.pc_feed_blog_category.none-task-blog-classify_tag-9-121370565-null-null.nonecase&depth_1-utm_source=distribute.pc_feed_blog_category.none-task-blog-classify_tag-9-121370565-null-null.nonecase)
+    
+    * [unity工程被高版本打开报错](https://blog.csdn.net/qq_34342853/article/details/120564273)
+      * 找到项目根目录/Packages/manifest.json，删掉相应的行即可
+
+    *  宏定义：在不同的环境下执行不同的代码，比如在安卓平台和在苹果平台下执行不同的代码，这样你就可以专门为你的目标平台编译代码
+       *  [unity宏定义](https://blog.csdn.net/baidu_39447417/article/details/78295734) 
+       *   1. UNITY_EDITOR       Unity编辑器中调用
+           2. UNITY_ANDROID      安卓平台
+           3. UNITY_IPHONE       苹果平台。
+           4. UNITY_STANDALONE   独立的平台（Mac，Windows或Linux）
+   
+    *  [unity帧率](https://cloud.tencent.com/developer/article/1894207)
+
+    *   [https://blog.csdn.net/cwj649956781/article/details/76218218](https://blog.csdn.net/cwj649956781/article/details/76218218)
+        *   https://www.jianshu.com/p/22a927dc0ba2
+
+    *   UnityEngine.Mathf.Repeat与Mathf.PingPong
+        *   https://blog.csdn.net/qq_15505341/article/details/79251558
+    
+    *   Unity连接Mysql,默认情况下使用的是短连接。如果需要使用长连接，需要在建立连接时设置连接选项，将Connection Timeout的值设置为0或较大值即可

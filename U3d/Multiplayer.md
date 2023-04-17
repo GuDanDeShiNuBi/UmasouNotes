@@ -50,3 +50,5 @@
     *   帧同步与状态同步
         
         *   [两种同步模式：状态同步和帧同步](https://zhuanlan.zhihu.com/p/36884005)
+
+* [游戏服务器引擎]https://kbengine.github.io/cn/

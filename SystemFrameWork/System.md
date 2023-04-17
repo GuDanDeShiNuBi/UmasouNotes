@@ -5,6 +5,7 @@
     *   IDE（编程工具）
         *   Visual Studio
         *   monoDevelop
+        *   rider
     *   编程语言
         *   C#
         *   Lua(主要用于游戏热更新)

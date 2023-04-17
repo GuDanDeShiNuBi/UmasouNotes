@@ -9,6 +9,18 @@
 - 记忆十大管理对应的47个过程
 - 记忆47个过程的ITO(输入、输出、工具与技术)
   
+### 论文素材
+- https://blog.csdn.net/weixin_68261415/article/details/128714979?ops_request_misc=&request_id=&biz_id=102&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87%E7%B4%A0%E6%9D%90&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-128714979.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&spm=1018.2226.3001.4187
+- https://download.csdn.net/download/yahuszu/15381204?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167783294816782427489140%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=167783294816782427489140&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~first_rank_ecpm_v1~rank_v31_ecpm-5-15381204-null-null.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187.6
+- https://download.csdn.net/download/yahuszu/15381223?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167783294816782427489140%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=167783294816782427489140&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~first_rank_ecpm_v1~rank_v31_ecpm-4-15381223-null-null.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187.5
+- https://blog.csdn.net/helwens/category_11607986.html
+- https://download.csdn.net/download/wywywy1995/11837718?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167783294816782427489140%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=167783294816782427489140&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~first_rank_ecpm_v1~rank_v31_ecpm-16-11837718-null-null.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187.17
+- https://download.csdn.net/download/linda740423/11943639?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167783294816782427489140%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=167783294816782427489140&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~first_rank_ecpm_v1~rank_v31_ecpm-19-11943639-null-null.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187.20
+- https://blog.csdn.net/baidu_18696283/article/details/102767761?ops_request_misc=&request_id=&biz_id=102&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-102767761.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&spm=1018.2226.3001.4187
+- https://blog.csdn.net/weixin_42705376/category_11223039.html
+
+- https://download.csdn.net/download/arlene210/11405741?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7ECTRLIST%7EPaid-1-11405741-blog-122647658.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7ECTRLIST%7EPaid-1-11405741-blog-122647658.pc_relevant_recovery_v2&utm_relevant_index=1
+- https://zhuanlan.zhihu.com/p/375893994
 
 ### 错题与知识点
 - 组织过程资产与事业环境因素：
@@ -30,3 +42,5 @@
    -  群体创新技术是通过集思广益来激发创意的技术的统称，例如， 头脑风暴法，名义小组技术，概念/思维导图，亲和图和德尔菲技术。
    -  群体决策技术是由一群人来集体决策的各种技术的统称，例如：一致同意、大多数原则、相对多数原则、独裁。
 
+- 设备可靠性、稳定性、可用性
+  - https://blog.nowcoder.net/n/78c903d3e9224ceaa754ad2474144776

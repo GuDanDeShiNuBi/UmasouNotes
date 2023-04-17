@@ -170,8 +170,10 @@
     *   Stopwatch
         *   测量运行时间
             *   [Stopwatch 类 (System.Diagnostics) | Microsoft Docs](https://docs.microsoft.com/zh-cn/dotnet/api/system.diagnostics.stopwatch?view=net-5.0)
-    *   ref&out
-        *   *   ![](https://api2.mubu.com/v3/document_image/19d43730-74fa-420f-a268-de9ebc1a892b-11312918.jpg)
+    *   ref&out    
+        *   变量作为参数传给方法，同时希望在方法执行完成后，对参数所做的修改能够反映到变量上
+        *   https://blog.csdn.net/qq_42351033/article/details/85121688
+        *  ![](https://api2.mubu.com/v3/document_image/19d43730-74fa-420f-a268-de9ebc1a892b-11312918.jpg)
     *   static
         *   [static作用](https://q.cnblogs.com/q/113888/)  
     *   if(！A)
@@ -274,4 +276,42 @@
 
     *  字节数组的转换出现字母表示
        *  [多种输出字节数组的方法](https://blog.csdn.net/mingzaiwang/article/details/117224809)
+
+    *   float转double存在精度丢失的问题
+        *  解决方案：1、通过decimal作为桥梁进行转换，(double)(decimal) f)
+        *  2、先转为字符串再进行转换,double.parse(f.tostring())
+
+    *   c#截取两个字符串之间的字符（https://www.cnblogs.com/jolins/p/9714238.html）
+
+    * c#无法识别的转义序列
+      * 1、加个"\"进行转义；2、在前面加个@
+      * 示例：我要进入D盘下video文件夹中的ysxs文件夹，写法分别为：D:\\video\\ysxs  @"D:\video\ysxs"
+
+    * keyvaluepair: a、KeyValuePair 是一个结构体（struct）； b、KeyValuePair 只包含一个Key、Value的键值对。
+    * Dictionary: a、Dictionary 可以简单的看作是KeyValuePair 的集合；
+    b、Dictionary 可以包含多个Key、Value的键值对。
+
+    * LinkedListNode<T>:表示 LinkedList<T> (双向链表)中的节点
+  
+    * base与this的使用 
+      * 抽象父类：virtual A(){this }
+      * 子类： override A(){base.A}
+      * 子类方法调用A时，如果语句中有base.A 则会先调用父类A语句，且此时this指的是子类；如果不含base.A 则直接覆盖父类方法，仅执行子类方法。
+
+    *  C#反射与type类
+       *  https://www.cnblogs.com/forever-Ys/p/10396906.html
+
+    *   abstract与virtual
+        * 使用abstract修饰的方法、变量，子类中必须实现
+        * 使用virtual修饰的方法、变量，子类中可实现也可不实现，强调多态性
+
+    *   Activator和new的区别：
+        *  需要动态的创建一个实例模型且不确定其类型的时候采用Activator
+        *  https://blog.csdn.net/han_better/article/details/81777853
+
+    *    C#协变与逆变
+         *    协变：使用Out关键字，子类-->父类
+         *    逆变：使用In关键字，父类-->子类
+         *    [C#泛型与逆变、协变](https://www.cnblogs.com/ricolee/p/cs-generic.html)
+
         

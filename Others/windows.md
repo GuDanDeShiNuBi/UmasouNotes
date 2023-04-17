@@ -1,1 +1,2 @@
 - [windows企业版没有应用商店](https://github.com/kkkgo/LTSB-Add-MicrosoftStore)(https://zhuanlan.zhihu.com/p/437785720)
+- [cmd命令大全](https://blog.csdn.net/qq_44807756/article/details/126348420?spm=1001.2100.3001.7377&utm_medium=distribute.pc_feed_blog.none-task-blog-hot_rank_bottoming-1-126348420-null-null.nonecase&depth_1-utm_source=distribute.pc_feed_blog.none-task-blog-hot_rank_bottoming-1-126348420-null-null.nonecase)

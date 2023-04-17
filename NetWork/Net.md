@@ -46,6 +46,7 @@
             *   Internet最基本的协议
             *   TCP负责发现传输的问题，一有问题就发出信号，要求重新传输，直到所有数据安全正确地传输到目的地。
             *   可靠的协议 通过三次握手建立的面向连接通信协议
+            *   https://blog.csdn.net/stone_tmp/article/details/118386484?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168005492016800211512973%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168005492016800211512973&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-118386484-null-null.142^v76^pc_new_rank,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=tcp%2Fip%E5%8D%8F%E8%AE%AE&spm=1018.2226.3001.4187
         *   TCP报文段的首部格式
             *   *   ![](https://api2.mubu.com/v3/document_image/7d624b1d-4d03-4957-8935-7a512a1df2ef-11312918.jpg)
         *   TCP连接与断开
@@ -90,6 +91,7 @@
         *   描述
             *   和服务器有一些频繁的交互 用http时不时请求 叫轮询 效率低下
             *   soket可以理解为插座 插头接上了可以保持通信
+            *   [socket理解](https://www.zhihu.com/question/64316083/answer/220480072)
         *   [Socket 类](https://docs.microsoft.com/zh-cn/dotnet/api/system.net.sockets.socket?view=net-5.0)
         *   *   ![](https://api2.mubu.com/v3/document_image/d48e2233-6783-43b8-8efc-98da7095ba85-11312918.jpg)
         *   IPAdress.Parse
@@ -116,3 +118,11 @@
 
 *  计算机网络通信相关
    *  [地址与端口](https://blog.csdn.net/qq_41122796/article/details/80287340)
+   *  [TCP的那些事](https://coolshell.cn/articles/11564.html)
+   *  各层基本单元
+      *  Segment 是TCP协议端到端传输的基本单元，协议内部会把大块数据分割成以报文段（segment）为单位的数据包进行管理，属于传输层协议
+      *  IP Datagram为ip协议端到端传输的基本单元
+      *  Packet是译为分组、数据包，是网络接口层和数据链路层传输的基本单元，分组既可以是一个IP数据报，也可以是IP数据报的一个片（fragment）
+      *  Frame是链路层的基本单元，包含链路层的头部信息（mac地址）和网络层的packet
+      *  数据封装的过程data=>segment=>packet=>frame,同样也是层层包含的关系，可以从Wireshark中查看详细的封包情况
+
