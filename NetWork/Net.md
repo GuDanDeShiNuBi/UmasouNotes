@@ -104,11 +104,11 @@
             *   把字符串转换成byte\[\]数组
         *   socket.Listen(int backlog)
             *   参数backlog指定队列中最多可容纳等待接受的连接数，0表示不限制
-        *   粘包拆包
-            *   [分包和粘包二](https://blog.csdn.net/yang854426171/article/details/88764319?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-3)
+        *   粘包分包
+            *  _待添加_
     *   拓展
         *   网址，URL，域名，IP地址，DNS，域名解析
-            *   [https://cloud.tencent.com/developer/article/1623575](https://cloud.tencent.com/developer/article/1623575)
+            *   (https://cloud.tencent.com/developer/article/1623575)
     *   WebSocket
         *   描述
             *   是一种在单个TCP连接上进行[全双工](https://baike.baidu.com/item/%E5%85%A8%E5%8F%8C%E5%B7%A5)通信的协议。

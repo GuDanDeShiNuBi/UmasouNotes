@@ -4,12 +4,14 @@
 [十大管理思维导图](https://blog.csdn.net/u010011737/article/details/78211836?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164783932316780271963286%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164783932316780271963286&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-3-78211836.142^v2^pc_search_result_control_group,143^v4^control&utm_term=%E5%8D%81%E5%A4%A7%E7%AE%A1%E7%90%86&spm=1018.2226.3001.4187)
 
 [高项速记笔记](https://zhuanlan.zhihu.com/p/410493233)
+[csdn总结] (https://blog.csdn.net/tangcoolcole/article/details/129808511?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168223795816800184118512%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=168223795816800184118512&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-129808511-null-null.142^v86^insert_down38v5,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187)
 
 ### 学习路线
 - 记忆十大管理对应的47个过程
 - 记忆47个过程的ITO(输入、输出、工具与技术)
   
 ### 论文素材
+- https://blog.csdn.net/gisboygogogo/article/details/77429734
 - https://blog.csdn.net/weixin_68261415/article/details/128714979?ops_request_misc=&request_id=&biz_id=102&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87%E7%B4%A0%E6%9D%90&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-128714979.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&spm=1018.2226.3001.4187
 - https://download.csdn.net/download/yahuszu/15381204?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167783294816782427489140%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=167783294816782427489140&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~first_rank_ecpm_v1~rank_v31_ecpm-5-15381204-null-null.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187.6
 - https://download.csdn.net/download/yahuszu/15381223?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167783294816782427489140%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=167783294816782427489140&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~first_rank_ecpm_v1~rank_v31_ecpm-4-15381223-null-null.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187.5

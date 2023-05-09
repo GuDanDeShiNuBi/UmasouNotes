@@ -4,6 +4,9 @@
 __ _
 
 * Vector
+  * C++语言有类模板，也有函数模板，其中vector是一个类模板。
+    * 模板本身不是类或函数，相反可以将模板看做为编译器生成类或函数编写的一份说明。编译器根据模板创建类或函数的过程称为实例化，当使用模板时，需要指出编译器应该把类或函数实例化为何种类型
+    * 例如：vector<int>ivec  ; vector<sales_item>Sales_vec;
   * C++ Vector与C#List
     * C++ vector 和 C# List 都是动态数组结构，用于存储一系列可以动态增删的数据。它们之间的主要区别有以下几点：
       1. 数据类型：C++ vector 可以存储任意数据类型，包括基本数据类型和自定义数据类型，而 C# List 只能存储对象类型。
@@ -15,6 +18,12 @@ __ _
     * > vector<int>ivec;//空的vector对象
     * > for(decltype(ivec.size()) ix=0,ix!=10,++ix)//使用decltype获取size的类型（size_type类型，无符号数）
     * >> ivec.push_back(ix)
+
+* for语句
+  * 范围for语句（类型与C#foreach）
+    *  for (const auto &entry :people )
+    *  基于范围的for循环（Range-based for loop），也称为foreach循环。
+    *  它使用简单的语法来遍历数组、容器或其他支持迭代器的数据结构，遍历过程中无需手动管理迭代器。其中 auto 关键字可以推导出 entry 的数据类型，而 const 和 & 用于修饰 entry 的引用类型和是否可修改。
 
 * 迭代器
   * c++中的迭代器是一种对象，它被用来遍历STL容器（如vector, list, map等）中的元素。迭代器提供了访问容器中元素的一种通用方式，使得我们可以像遍历数组一样遍历容器中的元素。

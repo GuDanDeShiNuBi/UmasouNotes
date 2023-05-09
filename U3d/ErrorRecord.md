@@ -12,3 +12,5 @@
    ~ 所需dll已存至网盘
 5、连接MySQL时，在unity编辑器里面运行没问题，但build后运行报异常：NotSupportedException: CodePage 1252 not supported
    ~ plugin 添加I18N.dll,I18N.West.dll文件
+6、VS出现大量错误，但Unity项目正常运行
+   ~ Edit->Projecting Settings->Player->Api Compatibility Level 切换两次

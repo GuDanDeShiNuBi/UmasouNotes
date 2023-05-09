@@ -8,7 +8,7 @@ __ _
   * 为对象起了另外一个名字。一般在初始化变量时，初始值会被拷贝到新建的对象中，然而定义引用时，程序将引用与它的初始值绑定在一起，而不是将初始值拷贝给引用
     * > int val=1024;
     * > int &refVal=val;
-    * > int & refVal2;  //报错，引用必须初始化
+    * > int &refVal2;  //报错，引用必须初始化
     * 引用并非对象，引用即别名
   * 引用的定义
     * 引用只能绑定在对象上，而不能与字面值或某个表达式的计算结果绑定在一起
@@ -20,6 +20,14 @@ __ _
   * cosnt的引用
     * 引用的类型必须与其所引用对象的类型一致，但有两个例外。第一个是初始化常量引用时允许用任意表达式作为初始值，只要该表达式的结果能转换成引用的类型即可。例如，允许一个常量引用绑定非常量的对象、字面值、表达式
       * > const int &r=42
+    * 为什么初始化常量引用时允许用任意表达式作为初始值  
+      * > double dval=3.14;
+      * > const int &ri=dval;
+      * ri引用了一个int型的数，但dval是一个双精度浮点数，为了确定让ri绑定一个整数，编译器把上述代码改为：
+        * > const int temp=dval; //由双精度浮点数生成一个临时的整型变量
+        * > const int &ri=temp;
+        * 这种情况下ri绑定了一个临时量
+        * 所以当ri不是常量时，就运行对ri赋值,这样就会改变ri所引用对象的值，但此时绑定的对象是一个临时量，并非dval。这种行为被称为‘归为非法’
 
 * 指针
   * 指针本身就是一个对象，且无须在定义时赋初值。
@@ -40,7 +48,7 @@ __ _
 
 * const
   * 使用关键字const对变量的类型加以限定，如：const int bufsize=512;const对象创建时必须进行初始化，固定其缓冲区的大小，且创建后其值不能被改变。
-  * 因为默认情况下，const对象被设定为仅在当前文件有效，为了其他文件声明并使用它，可cosnt前加extern关键字
+  * 因为默认情况下，const对象被设定为仅在当前文件有效，为了其他文件声明并使用它，可const前加extern关键字
   * 指针与const
     * 指向常量的指针
       * 不能改变其所指对象的值。要想存放常量对象的地址，只能使用指向常量的指针
@@ -77,9 +85,12 @@ __ _
  
   * 常量表达式：指的是值不会改变且在编译过程就能得到计算结果的表达式
     * constexpr:声明为constexpr的变量一定是一个常量，而且必须由常量表达式初始化
-    * 指针与constexpr。
-      * const int *p=nullptr;//此时p是一个指向常量的指针
-      * constexpr int *q=nullptr;//q是一个指向整数的常量指针
+    * 字面值类型：算数类型、引用、指针
+      * IO库，string类不属于字面值类型，也不能定义成constexpr
+      * 一个constexpr指针的初始值必须是nullptr或0，或是存储与某个固定地址的对象
+    * 指针与constexpr
+      * const int *p=nullptr;//此时p是一个指向整型常量的指针
+      * constexpr int *q=nullptr;//q是一个指向整数的常量指针，限定符constexpr仅对指针有效，与指针所指对象无关
   * const修饰函数本身
     * 当我们在函数声明或定义中，在函数后面加上const时，则表示该函数在类中被定义为一个常量成员函数。常量成员函数不会修改成员变量的值。
     * > int getValue() const { return m_value; }
@@ -89,7 +100,7 @@ __ _
     * 是某种类型的同义词,使用关键词typedef
       * > typedef double wages;  //wages是double的同义词
       * > typedef wages base ,*p ; //base是double的同义词，p是double*的同义词
-      * 含有typedef的声明语句定义的不再是变量二是类型别名
+      * 含有typedef的声明语句定义的不再是变量而是类型别名
     * using SI=Sales_item;//SI是Sales_item的同义词
     * wages hourly,weekly;//等价于double hourly、weekly
 
