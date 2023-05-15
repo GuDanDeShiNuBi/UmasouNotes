@@ -194,7 +194,7 @@
       
     * unity抗锯齿
       * canvas设置为screen space -camera, camera打开msaa,quality setting里设置anti Aliasing 2x\4x\8x
-      
+
     * unity汉化
       * 把语言包文件(zh-cn.po)放在Unity的安装目录下：C:\Program Files\Unity\2018.4.9f1\Editor\Data\Localization\
        如果没有这目录，则自己新建一个，注意文件名为zh-cn.po
@@ -231,10 +231,9 @@
     *  宏定义：在不同的环境下执行不同的代码，比如在安卓平台和在苹果平台下执行不同的代码，这样你就可以专门为你的目标平台编译代码
        *  [unity宏定义](https://blog.csdn.net/baidu_39447417/article/details/78295734) 
        *   1. UNITY_EDITOR       Unity编辑器中调用
-           2. UNITY_ANDROID      安卓平台
-           3. UNITY_IPHONE       苹果平台。
-           4. UNITY_STANDALONE   独立的平台（Mac，Windows或Linux）
-   
+           1. UNITY_ANDROID      安卓平台
+           2. UNITY_IPHONE       苹果平台。
+           3. UNITY_STANDALONE   独立的平台（Mac，Windows或Linux）
     *  [unity帧率](https://cloud.tencent.com/developer/article/1894207)
 
     *   [https://blog.csdn.net/cwj649956781/article/details/76218218](https://blog.csdn.net/cwj649956781/article/details/76218218)

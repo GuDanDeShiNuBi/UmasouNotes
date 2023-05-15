@@ -46,3 +46,22 @@
 
 - 设备可靠性、稳定性、可用性
   - https://blog.nowcoder.net/n/78c903d3e9224ceaa754ad2474144776
+
+
+### 项目关键点
+
+- 项目管理
+https://www.cnblogs.com/leslies2/archive/2012/06/29/2569765.html
+https://www.cnblogs.com/mq0036/p/14542223.html
+https://www.cnblogs.com/mq0036/p/14542223.html
+
+- 风险管理
+https://www.cnblogs.com/mq0036/p/6074183.html
+
+- 整体管理
+https://blog.csdn.net/ren365880/article/details/122073451?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168413368316800186518536%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=168413368316800186518536&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-13-122073451-null-null.article_score_rank_blog&utm_term=%E9%A1%B9%E7%9B%AE%E6%95%B4%E4%BD%93%E7%AE%A1%E7%90%86&spm=1018.2226.3001.4450
+
+https://blog.csdn.net/zhousanlong/article/details/50587271?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168413368316800186518536%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=168413368316800186518536&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-17-50587271-null-null.article_score_rank_blog&utm_term=%E9%A1%B9%E7%9B%AE%E6%95%B4%E4%BD%93%E7%AE%A1%E7%90%86&spm=1018.2226.3001.4450  
+
+- 项目经理职责
+在制定项目计划时，要往细里钻，需要明确每个项目组成员的责任，并且让项目组成员的每个人都非常清晰自己的责任和风险所在。有时候，虽然项目计划制定了，但是个人的职责还是不清楚。 在对外上，项目经理要保持与业务部门良好的合作关系，主动积极推动业务部门的项目运作，将项目的运行状况传达到每个部门，每个科室负责人，让大家有个清晰的了解，知道在每个阶段，业务部门的任务是什么，责任在哪里，从而让业务部门来推动项目业务方面工作的进行。
