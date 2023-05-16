@@ -115,6 +115,7 @@ ___
         - > int odd[]={1,2,3,4};
         - > decltype(odd)*arrPtr(int i);
 
+
 ___
 
 * 函数重载  
