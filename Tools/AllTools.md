@@ -23,4 +23,5 @@
   * [url]https://github.com/openRunner/clash-freenode
   * [shadowsocks] https://portal.shadowsocks.au/aff.php?aff=51088
 
-* [unity gpt](https://unitystart.com/)
+* [ gpt] https://study.zwjjiaozhu.top/posts/chatgpt-mirror-sites.html
+  

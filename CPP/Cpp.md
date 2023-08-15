@@ -2,6 +2,7 @@
     *   学习网站
         *   [最好的C++教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1VJ411M7WR)
         *   [The C++ Tutorial | Learn C++ (learncpp.com)](https://www.learncpp.com/)
+        *   [C++Primer学习笔记](https://link.zhihu.com/?target=https%3A//cpp-note.readthedocs.io/zh/latest/index.html)
 *   笔记
     *   预处理指令（preprocessor）
         *   #include<iostream>

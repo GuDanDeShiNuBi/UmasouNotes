@@ -35,7 +35,7 @@ ___
 * fstream :文件输入输出
   * fstream特有的操作
     * fstream fstrm  //创建一个未绑定的文件流
-    * fstream fstrm（s）  //创建一个fstrean,并打开名为s的文件
+    * fstream fstrm（s）  //创建一个fstream,并打开名为s的文件
     * fstream fstrm（s,mode）  //同时，但按指定mode打开文件
     * fstrm.open(s)  //打开名为s的文件，并将文件与fstrm绑定
     * fstrm.close()  //关闭与fstrm绑定的文件

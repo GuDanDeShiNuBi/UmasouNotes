@@ -14,3 +14,5 @@
             *   [介绍 — ILRuntime](https://ourpalm.github.io/ILRuntime/public/v1/guide/index.html)
             *   [ILRuntime入门笔记](https://www.cnblogs.com/zhaoqingqing/p/10274176.html)
             *   [Unity资源热更及代码热更框架](https://zhuanlan.zhihu.com/p/142619941)
+
+    * [HybridCLR] (https://zhuanlan.zhihu.com/p/485311523)

@@ -50,6 +50,7 @@
  
 *   数据库设计
     *   实体关系图（ERD）
+    *   [Mysql数据库设计规范](https://www.cnblogs.com/xuliuzai/p/13796453.html)
     *   [mysql字段区分大小写](https://blog.csdn.net/clapAlong/article/details/118797101)
     *   [排序规则](https://blog.csdn.net/leoxyk/article/details/99855608)
     *   [数据长度设置](https://blog.csdn.net/qq_43470725/article/details/123411822)
