@@ -9,24 +9,31 @@
 - [OpenGL与Vulkan]https://www.zhihu.com/question/391104927/answer/1191341459
 
 ###### 计划
-
+- 不需要学的特别深入，图形学基础+基础shader编写即可
 - 第一步：
   - games101 虎书
+  - C++
+    - 基本上这个基础知识的编程（如games101、《3D数学基础》、DX12都需要C++基础）
+  - 线性代数
+
 - 第二步：
   - unity shader入门精要
   - 3D数学基础：图形与游戏开发
+
 - 第三步：
   - catlike srp系列教程 https://catlikecoding.com/unity/tutorials/scriptable-render-pipeline/
+  - 学习一款DCC软件
 - 第四步：
   - UniversalRenderPipeline(URP)源码
+
 - 第五步：
   - DX12/Vulkan
-- 学习过程还需掌握的：
-  - C++   
-  - 学习一款DCC软件
+
+- 最重要的一步：英语..................   其次 线性代数...................
+
 - 图形编程接口：
   - learn opengl  https://learnopengl-cn.github.io/01%20Getting%20started/01%20OpenGL/
-  - DX11 DX12 更符合逻辑思维  龙书  
+  -  DX12 更符合逻辑思维  龙书  
   - Vulkan  比较复杂，但支持多线程
   - opengl  跨平台，单线程，复杂
   - metal   仅支持mac用户，坑比较少

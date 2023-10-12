@@ -5,7 +5,10 @@
 
 [高项速记笔记](https://zhuanlan.zhihu.com/p/410493233)
 [csdn总结] (https://blog.csdn.net/tangcoolcole/article/details/129808511?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168223795816800184118512%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=168223795816800184118512&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-129808511-null-null.142^v86^insert_down38v5,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187)
-
+[范围管理论文]https://blog.csdn.net/weixin_43178103/article/details/130855317?ops_request_misc=&request_id=&biz_id=102&utm_term=%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E8%AE%BA%E6%96%87&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-5-130855317.nonecase&spm=1018.2226.3001.4187
+[整体管理论文]https://www.cnblogs.com/feitiandamo/p/16526343.html
+[进度管理论文]https://www.cnblogs.com/android-it/p/17122976.html
+[成本管理论文]https://www.cnblogs.com/android-it/p/17122997.html
 ### 学习路线
 - 记忆十大管理对应的47个过程
 - 记忆47个过程的ITO(输入、输出、工具与技术)

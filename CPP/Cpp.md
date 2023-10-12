@@ -3,6 +3,7 @@
         *   [最好的C++教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1VJ411M7WR)
         *   [The C++ Tutorial | Learn C++ (learncpp.com)](https://www.learncpp.com/)
         *   [C++Primer学习笔记](https://link.zhihu.com/?target=https%3A//cpp-note.readthedocs.io/zh/latest/index.html)
+        *   [C++ guid](https://google.github.io/styleguide/cppguide.html#The__define_Guard)
 *   笔记
     *   预处理指令（preprocessor）
         *   #include<iostream>
@@ -20,19 +21,19 @@
         *   是一个整数，存储着一个内存地址
         *   &var
             *   获取变量的内存地址，赋给指针
-                *   void\*ptr=&var
+                *   void *ptr=&var
         *   指针的指针
-            *   char\[\]buffer=new char\[8\]
+            *   char[]buffer=new char[8]
             *   memset(buffer,0,8)
-            *   char\*\*ptr=&buffer
-            *   \*ptr最终指向00,00,00,00
+            *   char**ptr=&buffer
+            *   *ptr最终指向00,00,00,00
     *   引用（reference）
         *   紧贴变量类型为引用
             *   Int&、float&
         *   &a
             *   代表a的内存地址
         *   不是真正的变量，相当于变量的另外一个名称
-        *   \*var
+        *   *var
             *   代表解引用，指的是内存地址所指向的值
     *   对象与实例化
         *   由类类型制成的变量叫做对象，新创建对象的过程叫做实例化

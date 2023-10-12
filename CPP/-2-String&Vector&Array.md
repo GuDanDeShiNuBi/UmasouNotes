@@ -27,6 +27,14 @@ __ _
 
 * 迭代器
   * c++中的迭代器是一种对象，它被用来遍历STL容器（如vector, list, map等）中的元素。迭代器提供了访问容器中元素的一种通用方式，使得我们可以像遍历数组一样遍历容器中的元素。
+  * 迭代器声明：以 vector 为例
+    * 1、使用 typename std::vector<T>::iterator  声明迭代器：
+      * typename std::vector<int>::iterator it;
+    * 2、使用 auto 关键字自动推导迭代器类型：
+      * auto it = numbers.begin();
+      *  while (it != numbers.end()) {
+      *  std::cout << *it << " ";
+      *  ++it;}
   * 使用迭代器可以通过以下方式访问容器中的元素：
     - *iter：访问当前元素的值
     - iter->member：访问当前元素的成员
