@@ -27,6 +27,14 @@
 - https://download.csdn.net/download/arlene210/11405741?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7ECTRLIST%7EPaid-1-11405741-blog-122647658.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7ECTRLIST%7EPaid-1-11405741-blog-122647658.pc_relevant_recovery_v2&utm_relevant_index=1
 - https://zhuanlan.zhihu.com/p/375893994
 
+20231012
+- 智慧社区长篇论文 https://zhuanlan.zhihu.com/p/434387287
+- 2023年10月，国家对智慧社区的指南 https://www.guizhou.gov.cn/ztzl/srxxgcdd20djs/202310/t20231011_82721844.html
+- 智慧社区案例概述 https://zhuanlan.zhihu.com/p/377908704  
+- 智慧社区案例概述 https://blog.csdn.net/asiafinance/article/details/125992929?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169709457916800227469271%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=169709457916800227469271&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-8-125992929-null-null.142^v96^pc_search_result_base8&utm_term=%E6%95%B0%E5%AD%97%E7%A4%BE%E5%8C%BA%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E9%A1%B9%E7%9B%AE&spm=1018.2226.3001.4187
+- 智慧城市概述 https://blog.csdn.net/2301_76516693/article/details/129027934?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169709495116800222854831%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169709495116800222854831&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-129027934-null-null.142^v96^pc_search_result_base8&utm_term=%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82&spm=1018.2226.3001.4187
+- 智慧城市概述 https://blog.csdn.net/weixin_57099902/article/details/128695520?ops_request_misc=&request_id=&biz_id=102&utm_term=%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-4-128695520.142^v96^pc_search_result_base8&spm=1018.2226.3001.4187
+
 ### 错题与知识点
 - 组织过程资产与事业环境因素：
   - 组织过程资产
