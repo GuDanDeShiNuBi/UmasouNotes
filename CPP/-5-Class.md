@@ -244,6 +244,8 @@ ___
         * 接受一个单参数的cosnt char *的string构造函数，不是explicit的
         * 接受一个容量参数的vector构造函数，是explicit的 
 
+
+
 ___
 
 * 类的静态成员

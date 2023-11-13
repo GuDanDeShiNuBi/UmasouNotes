@@ -47,7 +47,7 @@
     *   [where多条件判断语法](https://blog.csdn.net/liuying_1001/article/details/37700883)
     *   [mysql中float与decimal](https://blog.csdn.net/donghaixiaolongwang/article/details/74905954) 
     *   删除某日期之前的数据:delete from allTData where crt_time<'2017-05-31 00:00:00'
- 
+    *   如何按照某一列的数据进行排序读取：使用SQL语句的ORDER BY子句
 *   数据库设计
     *   实体关系图（ERD）
     *   [Mysql数据库设计规范](https://www.cnblogs.com/xuliuzai/p/13796453.html)

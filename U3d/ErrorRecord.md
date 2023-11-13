@@ -22,4 +22,11 @@
    所以尽量使用带有独显的电脑（NVIDIA的RTX,GTX）
 8、unity5.5.2已经打包出去的应用程序，其分辨率及显示设置（projectsetting）会随着原工程打包出的其他应用程序发生变化
    ~ 可能是电脑自动配置的原因，电脑无法识别源工程打包出的不同应用程序，并以最新打包出的应用程序为准
-
+9、Unity应用程序---解决重新调整程序分辨率后，再运行程序还是和之前分辨率一样的问题
+   ~ 主要是因为当用Unity发布一个新游戏的时候，它会在你电脑的注册表上根据你的公司和项目名字，记录你游戏的画质信息。
+   ~ 方法一：改变发布时的公司或者项目名称
+   ~ 方法2. Win+r---输入regedit---打开注册表---HKEY_CURRENT_USER---Software---公司名---项目名
+   直接把带项目名的这个文件删除
+10、unity读取数据库数据报错：unable to convert MySQL date/time value to System.DateTime。
+   ~ 数据库数据项data中存在不正常格式数据：0000：:00：:00这种。修改掉即可
+   ~ 或者，这个时候可以在连接字符串中添加这样语句:string sql="Server=localhost;UserId=root;Database=powergsm;allow zero datetime = true";这些都是在Mysql默认设置下对于错误的解决,这样就可以转换成System.DateTime了;
