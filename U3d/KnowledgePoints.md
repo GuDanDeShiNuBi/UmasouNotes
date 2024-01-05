@@ -243,3 +243,5 @@
         *   https://blog.csdn.net/qq_15505341/article/details/79251558
     
     *   Unity连接Mysql,默认情况下使用的是短连接。如果需要使用长连接，需要在建立连接时设置连接选项，将Connection Timeout的值设置为0或较大值即可
+
+    *  unity canvas的match。https://zhuanlan.zhihu.com/p/643275125

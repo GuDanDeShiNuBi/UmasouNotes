@@ -30,3 +30,9 @@
 10、unity读取数据库数据报错：unable to convert MySQL date/time value to System.DateTime。
    ~ 数据库数据项data中存在不正常格式数据：0000：:00：:00这种。修改掉即可
    ~ 或者，这个时候可以在连接字符串中添加这样语句:string sql="Server=localhost;UserId=root;Database=powergsm;allow zero datetime = true";这些都是在Mysql默认设置下对于错误的解决,这样就可以转换成System.DateTime了;
+11、unity读取excel文件时，读到的数据为空
+   ~ 使用CreateBinaryReader而不是CreateOpenXmlReader
+   ~ IExcelDataReader excelReader = ExcelReaderFactory.CreateOpenXmlReader(stream);这个方法是由EPPlus库提供的，用于创建处理Open XML格式（.xlsx）的Excel文件的读取器。它适用于较新版本的Excel文件（Excel 2007及更高版本）。
+   ~ IExcelDataReader excelReader = ExcelReaderFactory.CreateBinaryReader(stream);这个方法是由NPOI库提供的，用于创建处理二进制格式（.xls）的Excel文件的读取器。它适用于较早版本的Excel文件（Excel 97-2003格式
+12、unity在切换场景是会重新激活一次物体吗
+
