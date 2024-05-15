@@ -24,4 +24,5 @@
   * [shadowsocks] https://portal.shadowsocks.au/aff.php?aff=51088
 
 * [ gpt] https://study.zwjjiaozhu.top/posts/chatgpt-mirror-sites.html
+* 在线文字转语音  https://ttsmaker.cn/
   

@@ -54,4 +54,3 @@
 
 * ReferencePoolInfo：引用池信息
   * 结构体
-  * 

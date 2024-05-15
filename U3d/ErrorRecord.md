@@ -34,5 +34,6 @@
    ~ 使用CreateBinaryReader而不是CreateOpenXmlReader
    ~ IExcelDataReader excelReader = ExcelReaderFactory.CreateOpenXmlReader(stream);这个方法是由EPPlus库提供的，用于创建处理Open XML格式（.xlsx）的Excel文件的读取器。它适用于较新版本的Excel文件（Excel 2007及更高版本）。
    ~ IExcelDataReader excelReader = ExcelReaderFactory.CreateBinaryReader(stream);这个方法是由NPOI库提供的，用于创建处理二进制格式（.xls）的Excel文件的读取器。它适用于较早版本的Excel文件（Excel 97-2003格式
-12、unity在切换场景是会重新激活一次物体吗
+12、unity打包平台由windows切换为linux平台时，unity引擎崩溃
+   ~ 切换平台会重新编译资源文件，生成新的library文件。某些图片无法打开或读取就会导致软件崩溃，删除该图片即可
 

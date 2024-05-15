@@ -223,7 +223,7 @@
     * unity打开vs，一直显示Importing assets。
       * 原因：工程路径中存在中文
 
-    * [导入原神模型&&blender结合unity](https://blog.csdn.net/linxinfa/article/details/121370565?spm=1001.2100.3001.7377&utm_medium=distribute.pc_feed_blog_category.none-task-blog-classify_tag-9-121370565-null-null.nonecase&depth_1-utm_source=distribute.pc_feed_blog_category.none-task-blog-classify_tag-9-121370565-null-null.nonecase)
+    * [导入模型&&blender结合unity](https://blog.csdn.net/linxinfa/article/details/121370565?spm=1001.2100.3001.7377&utm_medium=distribute.pc_feed_blog_category.none-task-blog-classify_tag-9-121370565-null-null.nonecase&depth_1-utm_source=distribute.pc_feed_blog_category.none-task-blog-classify_tag-9-121370565-null-null.nonecase)
     
     * [unity工程被高版本打开报错](https://blog.csdn.net/qq_34342853/article/details/120564273)
       * 找到项目根目录/Packages/manifest.json，删掉相应的行即可
@@ -245,3 +245,6 @@
     *   Unity连接Mysql,默认情况下使用的是短连接。如果需要使用长连接，需要在建立连接时设置连接选项，将Connection Timeout的值设置为0或较大值即可
 
     *  unity canvas的match。https://zhuanlan.zhihu.com/p/643275125
+    
+    *  unity应用程序转成安装包
+       *  https://blog.csdn.net/linxinfa/article/details/105863615  
