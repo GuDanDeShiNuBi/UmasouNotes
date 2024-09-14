@@ -313,5 +313,67 @@
          *    协变：使用Out关键字，子类-->父类
          *    逆变：使用In关键字，父类-->子类
          *    [C#泛型与逆变、协变](https://www.cnblogs.com/ricolee/p/cs-generic.html)
+    
+    *    关于对表格文件的处理
+         *    1、EPPlus: EPPlus 主要用于处理 .xlsx 文件（Excel 2007 及以上版本的文件格式），不支持 .xls 文件（Excel 97-2003 的文件格式）
+              *    使用：using OfficeOpenXml;
+              *    static DataTable ReadExcelFile(string filePath)
+              *    {
+              *       using (var package = new ExcelPackage(new FileInfo(filePath)))
+              *       {
+              *          ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
+              *          DataTable dataTable = new DataTable();
+              *          //worksheet.Cells[i, j];表格的数据，可添加到dataTable
+              *       }
+              *    }
+         
+         *    2、NPOI ：主要对.xls处理。其中NPOI.XSSF.UserModel，用于处理 Excel 2007 及以上版本的 .xlsx 文件（即 Open XML 格式）。NPOI.HSSF.UserModel，处理 Excel 97-2003 的 .xls 文件（即二进制格式）
+              *    添加：打开 Visual Studio，选择 工具 -> NuGet 包管理器 -> 包管理器控制台。在控制台中输入以下命令： Install-Package NPOI
+              *    使用：using NPOI.HSSF.UserModel;
+              *    public void ReadXlsFile(string filePath)
+              *    {
+              *     using (var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
+              *     {
+              *        var workbook = new HSSFWorkbook(fileStream); 
+              *        var sheet = workbook.GetSheetAt(0);
+              *        string str1=sheet.GetRow(行号).GetCell(列号).toString();
+              *     }
+              *    }
 
-        
+    * C#中对mysql的操作
+        * 1、查询
+          * string query = "SELECT Password, TeacherID FROM user WHERE Account = @username";
+          * using (var command = new MySqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@username", username);
+
+                using (var adapter = new MySqlDataAdapter(command))
+                {
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);//执行查询并将结果填充到 DataTable 中
+                    return dataTable;
+                }
+            }
+        * 2、插入
+          *  string query = "INSERT INTO your_table (column1, column2) VALUES (@value1, @value2)";
+          *    using (var cmd = new MySqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@value1", row["Column1"]);//row["Column1"]是指具体的值，可用其他值代替
+                    cmd.Parameters.AddWithValue("@value2", row["Column2"]);
+                    cmd.ExecuteNonQuery();
+                }
+        * 3、更新
+          * string query = "UPDATE your_table SET column2 = @value2,column3=@value3 WHERE column1 = @value1";
+          * using (var cmd = new MySqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@value1", row["Column1"]);
+                    cmd.Parameters.AddWithValue("@value2", row["Column2"]);
+                    cmd.Parameters.AddWithValue("@value3", row["Column3"]);
+
+                    cmd.ExecuteNonQuery();
+                }
+    
+    * C# 控制台应用程序获取打包后应用程序路径
+        * string directoryPath = AppDomain.CurrentDomain.BaseDirectory;//获取根目录路径
+        * string filePath = Directory.GetFiles(directoryPath, "*.xls").FirstOrDefault();//获取根目录下的第一个表格文件
+        * string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(filePath);//获取无后缀的文件名（去除.xls）

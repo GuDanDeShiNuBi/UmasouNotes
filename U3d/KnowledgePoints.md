@@ -246,5 +246,30 @@
 
     *  unity canvas的match。https://zhuanlan.zhihu.com/p/643275125
     
-    *  unity应用程序转成安装包
+    *  unity应用程序转成安装包  
        *  https://blog.csdn.net/linxinfa/article/details/105863615  
+    
+    *  unity查询mysql数据，select结果按列中时间 来排序
+       *  SELECT * FROM your_table_name  ORDER BY your_datetime_column ASC;ASC 是升序排列，DESC 是降序排列
+       *  如果日期时间数据存储为字符串（例如 VARCHAR），排序可能会出现问题。需要将其转换为日期时间类型。
+          *  CAST 函数可以将 VARCHAR 类型转换为 DATETIME 类型：
+          *  SELECT *FROM your_table_name ORDER BY CAST(your_varchar_column AS DATETIME) DESC;
+   
+    *  unity如何将rendertexture的显示呈现的长方形带有弧度
+       *  RawImage放在带有mask组件的image下能被遮挡
+       *  mask组件的主要功能是限制其子对象的可见范围，使得子对象只能在Mask组件指定的区域内显示
+
+    *  UNITY中启动一个线程
+       *  1、使用Tread 适用于.net早版本
+       *  using System.Threading;
+       *  backgroundThread = new Thread(Task);
+       *  void Task(){
+       *  //执行线程任务，大都为一些数据交互
+       *  Thread.Sleep(5000)//控制任务的执行间隔或延迟任务的开始
+       *  }；
+       *  线程内不能直接调用 Unity 的主线程 API,因为Unity 的主线程是处理所有游戏对象、组件和渲染的唯一线程。其 API 和操作是线程不安全的
+       *  2、使用Task 适用于.net4
+       *  using System.Threading.Tasks;
+       *  async void Start(){// 启动异步任务 await RunInTaskAsync();}//为什么Start()方法也要async,为了使用 await 关键字来等待异步操作完成
+       *  private async Task RunInTaskAsync(){//执行后台任务  //模拟耗时await Task.Delay(2000);//更新 Unity 主线程的 UI 或对象UpdateMainThread（）；}
+       *  private void UpdateMainThread(){// 在主线程中更新 Unity 相关操作}
