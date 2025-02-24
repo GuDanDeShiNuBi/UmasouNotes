@@ -1,0 +1,3 @@
+- 1、[超算-deepseek] https://chat.scnet.cn/#/chat?activeChatId=abb8c920caa3ef863a1ebbbaa1908cfc0407
+- 2、[超算-模型库] https://www.scnet.cn/ui/aihub/models?tasks=image-to-video
+- 3、[AIGC工具导航] https://www.aigc.cn/

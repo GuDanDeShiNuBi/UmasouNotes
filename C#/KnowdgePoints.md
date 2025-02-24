@@ -309,7 +309,7 @@
         *  需要动态的创建一个实例模型且不确定其类型的时候采用Activator
         *  https://blog.csdn.net/han_better/article/details/81777853
 
-    *    C#协变与逆变
+    *    C#协变与逆变  
          *    协变：使用Out关键字，子类-->父类
          *    逆变：使用In关键字，父类-->子类
          *    [C#泛型与逆变、协变](https://www.cnblogs.com/ricolee/p/cs-generic.html)
@@ -368,7 +368,7 @@
                 {
                     cmd.Parameters.AddWithValue("@value1", row["Column1"]);
                     cmd.Parameters.AddWithValue("@value2", row["Column2"]);
-                    cmd.Parameters.AddWithValue("@value3", row["Column3"]);
+                    cmd.Parameters.AddWithValue("@value3", row["Column3"]);138000  6000  4000  7000 150000 30000 60000
 
                     cmd.ExecuteNonQuery();
                 }
