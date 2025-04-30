@@ -126,7 +126,7 @@
     *   获取模型中心点、范围盒
         *   [unity 获取包围盒](https://blog.csdn.net/u012909508/article/details/83014958)
         
-    *   根据组件搜索物体
+    *   根据组件搜索物体//
         *   在Hierarchy面板上出来可以使用名称进行搜索到指定的物体外，还可以使用t:组件名 （如:t:boxcollider）来获取所有带有这个组件的游戏
         
     *   [Physics2D](https://docs.unity3d.com/cn/2019.4/ScriptReference/Physics2D.html).OverlapCircle

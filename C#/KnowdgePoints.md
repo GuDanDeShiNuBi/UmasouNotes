@@ -368,7 +368,7 @@
                 {
                     cmd.Parameters.AddWithValue("@value1", row["Column1"]);
                     cmd.Parameters.AddWithValue("@value2", row["Column2"]);
-                    cmd.Parameters.AddWithValue("@value3", row["Column3"]);138000  6000  4000  7000 150000 30000 60000
+                    cmd.Parameters.AddWithValue("@value3", row["Column3"]);
 
                     cmd.ExecuteNonQuery();
                 }
@@ -377,3 +377,9 @@
         * string directoryPath = AppDomain.CurrentDomain.BaseDirectory;//获取根目录路径
         * string filePath = Directory.GetFiles(directoryPath, "*.xls").FirstOrDefault();//获取根目录下的第一个表格文件
         * string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(filePath);//获取无后缀的文件名（去除.xls）
+    
+    * ToString("D2") 是 int 类型的 ToString 方法的一种格式化方式
+      * "D" 表示“数字”格式。
+      * 2 表示该数字应该占用 2 个字符，如果数字本身是一个位数（例如1），则会自动在前面补充零，确保数字总是两位数。
+      * 值是 5，ToString("D2") 会返回 "05"，值是 15，那么 ToString("D2") 会返回 "15"。
+

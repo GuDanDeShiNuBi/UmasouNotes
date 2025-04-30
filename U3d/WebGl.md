@@ -87,3 +87,5 @@
         *   2\. 3D模型场景下载的带宽限制
     *   unity webgl文件利用vscode运行在本地服务器：vscode下载插件：liveServer
     *   [webgl本地运行](https://blog.csdn.net/qq_33155437/article/details/120175759)
+        *   https://blog.csdn.net/qq_66312646/article/details/131083148
+    *   [webgl开发指南]（https://zhuanlan.zhihu.com/p/475307249）
