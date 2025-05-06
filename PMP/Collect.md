@@ -1,10 +1,6 @@
 ### 相关链接
 [项目管理五大过程](https://blog.csdn.net/u012757419/article/details/79660060)
-
-[十大管理思维导图](https://blog.csdn.net/u010011737/article/details/78211836?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164783932316780271963286%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164783932316780271963286&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-3-78211836.142^v2^pc_search_result_control_group,143^v4^control&utm_term=%E5%8D%81%E5%A4%A7%E7%AE%A1%E7%90%86&spm=1018.2226.3001.4187)
-
 [高项速记笔记](https://zhuanlan.zhihu.com/p/410493233)
-[csdn总结] (https://blog.csdn.net/tangcoolcole/article/details/129808511?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168223795816800184118512%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=168223795816800184118512&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-129808511-null-null.142^v86^insert_down38v5,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187)
 [范围管理论文]https://blog.csdn.net/weixin_43178103/article/details/130855317?ops_request_misc=&request_id=&biz_id=102&utm_term=%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E8%AE%BA%E6%96%87&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-5-130855317.nonecase&spm=1018.2226.3001.4187
 [整体管理论文]https://www.cnblogs.com/feitiandamo/p/16526343.html
 [进度管理论文]https://www.cnblogs.com/android-it/p/17122976.html
@@ -12,26 +8,7 @@
 ### 学习路线
 - 记忆十大管理对应的47个过程
 - 记忆47个过程的ITO(输入、输出、工具与技术)
-  
-### 论文素材
-- https://blog.csdn.net/gisboygogogo/article/details/77429734
-- https://blog.csdn.net/weixin_68261415/article/details/128714979?ops_request_misc=&request_id=&biz_id=102&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87%E7%B4%A0%E6%9D%90&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-128714979.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&spm=1018.2226.3001.4187
-- https://blog.csdn.net/helwens/category_11607986.html
-- https://download.csdn.net/download/wywywy1995/11837718?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167783294816782427489140%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=167783294816782427489140&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~first_rank_ecpm_v1~rank_v31_ecpm-16-11837718-null-null.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187.17
-- https://download.csdn.net/download/linda740423/11943639?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167783294816782427489140%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=167783294816782427489140&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~first_rank_ecpm_v1~rank_v31_ecpm-19-11943639-null-null.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4187.20
-- https://blog.csdn.net/baidu_18696283/article/details/102767761?ops_request_misc=&request_id=&biz_id=102&utm_term=%E9%AB%98%E9%A1%B9%E8%AE%BA%E6%96%87&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-102767761.142^v73^pc_search_v2,201^v4^add_ask,239^v2^insert_chatgpt&spm=1018.2226.3001.4187
-- https://blog.csdn.net/weixin_42705376/category_11223039.html
 
-- https://download.csdn.net/download/arlene210/11405741?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7ECTRLIST%7EPaid-1-11405741-blog-122647658.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7ECTRLIST%7EPaid-1-11405741-blog-122647658.pc_relevant_recovery_v2&utm_relevant_index=1
-- https://zhuanlan.zhihu.com/p/375893994
-
-20231012
-- 智慧社区长篇论文 https://zhuanlan.zhihu.com/p/434387287
-- 2023年10月，国家对智慧社区的指南 https://www.guizhou.gov.cn/ztzl/srxxgcdd20djs/202310/t20231011_82721844.html
-- 智慧社区案例概述 https://zhuanlan.zhihu.com/p/377908704  
-- 智慧社区案例概述 https://blog.csdn.net/asiafinance/article/details/125992929?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169709457916800227469271%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=169709457916800227469271&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-8-125992929-null-null.142^v96^pc_search_result_base8&utm_term=%E6%95%B0%E5%AD%97%E7%A4%BE%E5%8C%BA%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E9%A1%B9%E7%9B%AE&spm=1018.2226.3001.4187
-- 智慧城市概述 https://blog.csdn.net/2301_76516693/article/details/129027934?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169709495116800222854831%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169709495116800222854831&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-129027934-null-null.142^v96^pc_search_result_base8&utm_term=%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82&spm=1018.2226.3001.4187
-- 智慧城市概述 https://blog.csdn.net/weixin_57099902/article/details/128695520?ops_request_misc=&request_id=&biz_id=102&utm_term=%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-4-128695520.142^v96^pc_search_result_base8&spm=1018.2226.3001.4187
 
 ### 错题与知识点
 - 组织过程资产与事业环境因素：
@@ -59,45 +36,6 @@
 
 ### 项目论文关键点
 
-- 项目背景
-智慧城市综合管理是指将信息技术与城市治理相结合，通过智能化设备、互联网、大数据等手段，实现城市资源、服务、环境等方面的全面管理和优化。
-在智慧城市综合管理中，可以采用各种技术手段，包括感知网络、物联网、云计算、人工智能、智能交通、智慧环保等，来实现对城市中的各种资源、环境、设施、交通等方面的实时监测、分析和调度。通过对这些信息的收集、整合和分析，可以实现全面管理和优化，提高城市的运行效率和生活质量，为市民提供更好的服务和生活环境。
-智慧城市综合管理可以在多个层面上发挥作用，包括城市规划、交通管理、环境保护、公共安全、社会服务等方面。在每个层面上，都可以利用信息技术来实现城市的数字化转型，提高城市的综合管理水平和发展能力
-
-智慧城市综合管理项目的开展可以分为以下几个步骤：
-需求调研：了解城市的情况和市民的需求，明确项目目标和范围。
-方案设计：制定项目的整体规划和方案，包括技术架构、数据采集、数据分析、决策支持等方面的内容，同时考虑相关的政策法规、安全保障等因素。
-设备采购：根据项目需求，采购适合的硬件设备，如传感器、通信设备、监控设备等。
-系统建设：根据方案设计，搭建系统平台，并进行系统测试和调试。
-数据采集：将传感器、监控设备等设备安装到城市的各个区域，收集相关的数据。
-数据处理：对采集到的数据进行处理和分析，提取有用信息，如交通拥堵情况、环境污染程度等。
-数据展示：将分析后的数据以可视化的形式呈现出来，比如地图上的实时交通情况、空气质量指数等。
-决策支持：根据分析结果，提供给政府部门相应的决策支持，如交通疏导、环保措施等。
-运维管理：对整个系统进行运维和管理，确保系统的良好运行状态，并及时修复故障。
-需要注意的细节包括：在采购设备时，要选择可靠的供应商和优质的设备；在系统建设过程中，要考虑信息安全和隐私保护等因素；在数据采集和处理过程中，要遵循相关的法律法规和标准等。此外，在项目开展过程中，还需要加强与市民的沟通和交流，提高市民的参与度和满意度
-
-在智慧城市综合管理项目中，涉及到的技术包括感知网络、物联网、云计算、人工智能等方面，下面分别介绍一些具体的技术细节：
-感知网络：感知网络是指通过传感器等设备对环境进行数据采集和传输的网络。在智慧城市综合管理中，可以使用感知网络来采集城市中各种资源、环境、设施、交通等方面的信息。在具体部署时，需要考虑传感器的位置、数量、类型和采集频率等因素。
-物联网：物联网是指将各种设备与互联网连接起来，实现设备之间的互联互通。在智慧城市综合管理中，可以利用物联网来实现设备之间的数据传输和协同工作。需要考虑设备之间的协议、接口和安全等问题。
-云计算：云计算是指将计算资源、存储资源和网络资源等组成一个虚拟化的资源池，提供给用户按需使用的一种服务模式。在智慧城市综合管理中，可以利用云计算来存储和处理大规模的数据，如数据挖掘、机器学习等算法可以在云平台上运行。需要考虑云计算的安全性、可靠性和性能等问题。
-人工智能：人工智能是指模拟人类智能进行任务的理论、方法、技术和应用系统等。在智慧城市综合管理中，可以利用人工智能来处理和分析城市中各种资源、环境、设施、交通等方面的信息，并提供决策支持。需要考虑人工智能的算法、模型和数据等问题。
-除此之外，还需要考虑数据传输、存储、处理和管理等方面的详细技术实现，如数据加密、数据备份、数据清洗、数据归档等。需要根据具体的需求和情况，选择适合的技术方案，保障整个系统的可靠性、稳定性和安全性。
-
-智慧城市综合管理项目的软件部分设计包括以下方面：
-数据采集和处理：数据采集包括传感器、监测设备等采集城市各类数据，比如交通流量、环境指标、水质、垃圾清运等。数据处理包括数据清洗、预处理、挖掘和分析等过程，以提供基础数据支撑智慧城市管理决策。
-数据可视化和展示：为了更好的呈现城市各类数据，在数据处理过程中产生的各种数据指标和分析结果，需要进行可视化和展示。例如，通过地图展示路况信息、通过热力图展示污染源分布等。
-决策支持：通过数据分析和可视化，提供给政府管理部门实时的、科学的决策支持。例如，根据交通流量数据和实时视频监控，调整交通信号灯的时间，以优化城市交通流动。
-应用开发：为了更好的服务市民和提卫城市的安全和便利，需要对各类应用进行开发，如公共交通查询、环境指标查询等。这些应用可以为市民提供便捷的生活服务，也可以使得政府管理部门更加高效地管理城市。
-信息安全：随着智慧城市的发展，涉及到的数据也越来越多，信息安全问题也变得愈加重要。因此，在软件设计方案中也需要考虑信息安全措施，并采取各种防护措施以确保城市相关数据和个人信息的安全。
-
-以智慧交通领域为例，结合实际情况说明风险及问题，并给出相应的应对措施：
-安全风险：智慧交通综合管理项目所涉及的数据和信息内容非常重要，可能面临恶意攻击、数据泄露等安全风险。针对这个问题，可以加强系统的安全性设计，建立安全防护体系，确保各个层面都有安全机制的保障。
-隐私风险：智慧交通综合管理项目也需要考虑市民隐私信息的保护。可以通过设置数据权限等措施对数据进行限制。
-技术风险：智慧交通综合管理项目需要使用大量的技术手段，技术实现的可靠性和稳定性是关键因素。例如，传感器设备的故障、网络通信中断等问题将会影响整个系统的运行。可以加强系统监测和预警机制，以解决技术问题。
-经济风险：智慧交通综合管理项目需要耗费大量资金，而且在运营过程中也会面临着很高的维护和升级成本。在项目前期就要做好充分的预算和风险评估，制定合理的财务计划。
-政策法规风险：智慧交通综合管理项目实施过程中可能面临政策、法规等问题和阻碍。需要遵守相关的政策法规，确保项目运行的合法性。
-人员风险：智慧交通综合管理项目需要涉及到大量的数据采集、处理和解读，需要拥有专业的人才进行设计和管理。可以通过培训、提高员工技能水平以及完善项目管理流程等来优化项目管理和人员风险。
-
 - 项目管理
 https://www.cnblogs.com/leslies2/archive/2012/06/29/2569765.html
 https://www.cnblogs.com/mq0036/p/14542223.html
@@ -117,16 +55,6 @@ https://www.cnblogs.com/mq0036/p/6074183.html
 4.评估应对措施的成本和效益 – 一旦确定了针对每个风险的应对方案，就需要评估它们的成本和效益。这将为您提供所需的预算来实施这些措施，以及措施的期望风险减少程度。
 5.确定最终的项目风险 – 最后，需要评估所有的风险措施的成本和效益，以确定最终的项目风险。这将帮助您确定项目所需的预算和时间，并确定最好的决策方案。
 
-假设我正在开发一个游戏，在游戏中有一个云存储功能，允许玩家将游戏数据保存到云端。然而，云存储服务提供商可能会遭受黑客攻击或系统故障等风险。
-要进行定量风险分析，我需要采取以下步骤：
-1.确定风险因素——在这个例子中，风险因素可能包括黑客攻击、服务器故障等。
-2.评估每个风险因素的可能性——例如，黑客攻击的可能性是高、中还是低。
-3.评估每个风险因素的影响程度——例如，服务器故障的影响程度可能是高、中或低。
-4.使用数学公式计算每个风险的总体风险——例如，总体风险=可能性×影响程度。
-5.对每种风险采取风险控制策略——例如，采取加强安全措施来降低黑客攻击的可能性。
-6.持续监测和更新分析结果——风险随时可能发生变化，需要进行定期检查和更新。
-通过定量风险分析，我可以得出一个具体的数字，确定在云存储功能中可能面临的风险程度，并可以采取相应的措施来降低风险。
-
  敏感性分析方法：
 - 确定对项目成功的关键因素，例如成本、时间、资源等。
 - 识别与这些关键因素相关的潜在风险事件。
@@ -135,17 +63,7 @@ https://www.cnblogs.com/mq0036/p/6074183.html
 - 为每个风险事件分配一个敏感性等级，例如低、中、高。
 - 计算每个风险事件的敏感性值，即潜在风险事件的敏感性等级乘以其影响程度。
 - 将所有潜在风险事件的敏感性值相加，得到项目的总风险值。
-- 整体管理
-https://blog.csdn.net/ren365880/article/details/122073451?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168413368316800186518536%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=168413368316800186518536&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-13-122073451-null-null.article_score_rank_blog&utm_term=%E9%A1%B9%E7%9B%AE%E6%95%B4%E4%BD%93%E7%AE%A1%E7%90%86&spm=1018.2226.3001.4450
 
-https://blog.csdn.net/zhousanlong/article/details/50587271?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168413368316800186518536%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=168413368316800186518536&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-17-50587271-null-null.article_score_rank_blog&utm_term=%E9%A1%B9%E7%9B%AE%E6%95%B4%E4%BD%93%E7%AE%A1%E7%90%86&spm=1018.2226.3001.4450  
-
-https://www.cnblogs.com/enet02/p/9085553.html
 
 - 项目经理职责
 在制定项目计划时，要往细里钻，需要明确每个项目组成员的责任，并且让项目组成员的每个人都非常清晰自己的责任和风险所在。有时候，虽然项目计划制定了，但是个人的职责还是不清楚。 在对外上，项目经理要保持与业务部门良好的合作关系，主动积极推动业务部门的项目运作，将项目的运行状况传达到每个部门，每个科室负责人，让大家有个清晰的了解，知道在每个阶段，业务部门的任务是什么，责任在哪里，从而让业务部门来推动项目业务方面工作的进行。
-
-
-
-成本管理
-https://blog.csdn.net/qq_35461948/article/details/127966344?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168491596916800211576616%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=168491596916800211576616&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-127966344-null-null.268^v1^control&utm_term=%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E8%AE%BA%E6%96%87&spm=1018.2226.3001.4450
