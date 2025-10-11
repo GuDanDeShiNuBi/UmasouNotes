@@ -1,6 +1,7 @@
 *   Contents
     *   ScriptingAPI
         *   [Unity - Scripting API: (unity3d.com)](https://docs.unity3d.com/ScriptReference/index.html)
+
     *   相机
         *   Unity Cinemachine
             *   [Unity Cinemachine 初识 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/103584975)
@@ -273,3 +274,20 @@
        *  async void Start(){// 启动异步任务 await RunInTaskAsync();}//为什么Start()方法也要async,为了使用 await 关键字来等待异步操作完成
        *  private async Task RunInTaskAsync(){//执行后台任务  //模拟耗时await Task.Delay(2000);//更新 Unity 主线程的 UI 或对象UpdateMainThread（）；}
        *  private void UpdateMainThread(){// 在主线程中更新 Unity 相关操作}
+    
+    *   unity导入obj模型时，无法关联mtl材质文件
+        *  用文本编辑器打开 OBJ 文件
+        *  在 OBJ 文件中搜索mtllib关键字，该指令用于指定 MTL 文件的路径（如：mtllib model.mtl），这表示 MTL 文件与 OBJ 文件在同一目录下，且名为model.mtl。
+        *  若路径包含空格或特殊字符（如中文），可能导致 Unity 无法正确解析，需要将mtl文件及obj文件重命名
+
+    *   unity场景过暗，模型过暗
+        *   未勾选 Windows-Rendering-Lighting-Auto Generate
+        *   光照烘焙仅对标记为 Static 的物体生效，产生光照贴图文件
+        *   即使没有静态物体烘焙光照贴图，场景变亮可能由以下原因导致：1、实时光源（Realtime Lights）：若光源的 Mode 设置为  Realtime，则其光照效果会在运行时实时计算（如直接光照、阴影），不依赖烘焙。2、实时全局光照（Realtime GI）：
+        在 Lighting Settings 中启用 Realtime Global Illumination 后，Unity 会使用光照探针（Light Probes）或反射探针（Reflection Probes）计算动态物体的间接光照，即使没有静态物体烘焙，也可能让场景显得更明亮
+        *   打包后效果依然保留 
+
+    *   if (_videoSlider)是正确的，if (xx != null)的话就存在问题
+        *   Unity 中的绝大多数对象（如GameObject、Component、Texture等）都继承自 Unity 引擎自定义的UnityEngine.Object类，而非 C# 原生的System.Object。
+        *   if (_videoSlider) 当_videoSlider是 Unity 的Object派生类（比如Slider组件）时，if (_videoSlider)实际上调用的是 Unity 重写的bool运算符，它会：检查对象是否被标记为 “已销毁”（即使 C# 层面的引用还未置为null）。检查对象是否在内存中真实有效（例如避免 “僵尸对象”—— 已销毁但引用未清空的对象）。
+        *   if (xx != null)  C# 原生的xx != null判断的是 “引用是否指向内存中的某个地址。当 Unity 对象被销毁（如调用Destroy()）后，C# 层面的引用可能不会立即变为null。

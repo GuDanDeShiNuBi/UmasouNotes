@@ -28,3 +28,5 @@
 * [ gpt] https://study.zwjjiaozhu.top/posts/chatgpt-mirror-sites.html
 * 在线文字转语音  https://ttsmaker.cn/
 * 破解网站  https://www.52pojie.cn/thread-712350-1-1.html
+* PDF工具集 https://tools.pdf24.org/zh/
+* 跨平台下载工具 Motrix
