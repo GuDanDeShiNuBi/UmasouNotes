@@ -29,7 +29,7 @@
         *   锚点设置
             *   Anchor Presets
                 *   also set pivot
-                    *   设置锚点的同时设置UI中心点
+                    *   设置锚点的同时设置UI中心点、
                 *   also set position
                     *   设置锚点的同时设置UI位置
                 *   图例
@@ -122,7 +122,7 @@
             *   transform.Find用于查找子节点，它并不会递归的查找物体，也就是说它只会查找它的子节点，并不会查找子节点的子节点。
         
     *   Vector\[int\]
-        *   分别使用 \[0\]、\[1\]、\[2\] 访问 x、y、z 分量。
+        *   分别使用 \[0\]、\[1\]、\[2\] 访问 x、y、z 分量 
         
     *   获取模型中心点、范围盒
         *   [unity 获取包围盒](https://blog.csdn.net/u012909508/article/details/83014958)
@@ -224,6 +224,8 @@
     * unity打开vs，一直显示Importing assets。
       * 原因：工程路径中存在中文
 
+
+
     * [导入模型&&blender结合unity](https://blog.csdn.net/linxinfa/article/details/121370565?spm=1001.2100.3001.7377&utm_medium=distribute.pc_feed_blog_category.none-task-blog-classify_tag-9-121370565-null-null.nonecase&depth_1-utm_source=distribute.pc_feed_blog_category.none-task-blog-classify_tag-9-121370565-null-null.nonecase)
     
     * [unity工程被高版本打开报错](https://blog.csdn.net/qq_34342853/article/details/120564273)
@@ -277,7 +279,7 @@
     
     *   unity导入obj模型时，无法关联mtl材质文件
         *  用文本编辑器打开 OBJ 文件
-        *  在 OBJ 文件中搜索mtllib关键字，该指令用于指定 MTL 文件的路径（如：mtllib model.mtl），这表示 MTL 文件与 OBJ 文件在同一目录下，且名为model.mtl。
+        *  在 OBJ 文件中搜索mtllib关键字，该指令用于指定 MTL 文件的路径（如：mtllib model.mtl），这表示 MTL 文件与 OBJ 文件在同一目录下，且名为model.mtl
         *  若路径包含空格或特殊字符（如中文），可能导致 Unity 无法正确解析，需要将mtl文件及obj文件重命名
 
     *   unity场景过暗，模型过暗
